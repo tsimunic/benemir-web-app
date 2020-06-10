@@ -1,0 +1,39 @@
+:host {
+    display: grid;
+    grid-template-rows: auto auto;
+    padding-top: 15px;
+    /*     color: #3A45A3;
+ */
+}
+
+mat-card {
+    margin: 5px;
+}
+
+.title {
+    grid-row: 1;
+}
+
+.content {
+    padding-top: 15px;
+    grid-row: 2;
+    justify-self: center;
+    text-align: center;
+}
+
+.content-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img {
+    max-width: 100%;
+}
+
+.mat-card-image {
+    margin: 0;
+}
+
+.mat-card {
+    text-align: center;
+}

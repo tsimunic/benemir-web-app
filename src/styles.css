@@ -1,0 +1,82 @@
+@import "../node_modules/hamburgers/dist/hamburgers.css";
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.main-title {
+    font-family: 'monotypeCorsiva';
+}
+
+.hamburger {
+    color: white;
+}
+
+@font-face {
+    font-family: "monotypeCorsiva";
+    src: url("assets/fonts/MonotypeCorsiva.ttf") format("truetype"), url('assets/fonts/MonotypeCorsiva.woff2') format('woff2'), url('assets/fonts/MonotypeCorsiva.woff') format('woff');
+}
+
+*,
+ ::before,
+ ::after {
+    box-sizing: border-box;
+}
+
+*,
+ ::before,
+ ::after {
+    background-repeat: no-repeat;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.hamburger {
+    padding: 15px 15px;
+    display: inline-block;
+    cursor: pointer, auto;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible;
+}
+
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+    background-color: white;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+    width: 40px;
+    height: 4px;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+}

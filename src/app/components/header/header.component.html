@@ -1,0 +1,47 @@
+<div class="logo-header">
+    <img src="../../../assets/images/benemir-small.PNG" alt="">
+</div>
+<div class="header-main" #stickyHeader>
+    <div class="header-main-left">
+    </div>
+    <div class="header-main-mid">
+        <div class="header-main-top">
+            <h1 class="main-title">Benemir</h1>
+            <div class="header-top-utility">
+                <div *ngIf="currentLanguage === 'gb'" class="flag flag-icon flag-icon-gb" (click)="openLanguageDialog()"></div>
+                <div *ngIf="currentLanguage === 'hr'" class="flag flag-icon flag-icon-hr" (click)="openLanguageDialog()"></div>
+                <div *ngIf="currentLanguage === 'de'" class="flag flag-icon flag-icon-de" (click)="openLanguageDialog()"></div>
+                <div *ngIf="currentLanguage === 'it'" class="flag flag-icon flag-icon-it" (click)="openLanguageDialog()"></div>
+                <div *ngIf="currentLanguage === 'fr'" class="flag flag-icon flag-icon-fr" (click)="openLanguageDialog()"></div>
+            </div>
+        </div>
+        <div class="navigation-header">
+            <div class="nav-items">
+                <div class="nav-item"><button mat-button routerLink="/home">O nama</button></div>
+                <div class="nav-item"><button mat-button routerLink="/ljekovite-biljke">Ljekovite biljke</button></div>
+                <div class="nav-item"><button mat-button routerLink="/home">Web trgovina</button></div>
+                <div class="nav-item"><button mat-button routerLink="/home">Samostan</button></div>
+                <div class="nav-item"><button mat-button href="#contact">Kontakt</button></div>
+            </div>
+            <div class="dropdown">
+                <div class="menu-container">
+                    <div class="hamburger-container" (click)="activateHamburger()">
+                        <div class="hamburger;" [class]="hamburgerActivated ? 'hamburger
+              hamburger--collapse is-active' : 'hamburger hamburger--collapse'">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-container">
+                        <!-- <mat-icon>shopping_cart</mat-icon> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-main-right">
+    </div>
+</div>
+<div [style.height]="calculatedHeight"></div>

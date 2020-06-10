@@ -1,0 +1,7 @@
+:host {
+    background-color: #808080;
+    display: grid;
+    place-content: center;
+    color: white;
+    font-weight: bold;
+}
