@@ -1,7 +1,7 @@
 :host {
     display: grid;
-    grid-template-rows: auto auto;
-    padding-top: 15px;
+    grid-template-rows: auto;
+    padding-top: 10px;
     /*     color: #3A45A3;
  */
 }
@@ -10,13 +10,9 @@ mat-card {
     margin: 5px;
 }
 
-.title {
-    grid-row: 1;
-}
 
 .content {
-    padding-top: 15px;
-    grid-row: 2;
+    grid-row: 1;
     justify-self: center;
     text-align: center;
 }
@@ -24,11 +20,47 @@ mat-card {
 .content-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    min-height: 350px;
+    padding-bottom: 10px;
 }
 
-img {
-    max-width: 100%;
+.row-text {
+    display: grid;
+    place-self: center;
 }
+
+.first-picture {
+    background-image: url("../../../assets/images/samostan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    margin-left: 10px;
+}
+
+.second-picture {
+    background-image: url("../../../assets/images/carousel2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    margin-right: 10px;
+}
+
+.third-picture {
+    background-image: url("../../../assets/images/carousel1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    margin-left: 10px;
+}
+
+.fourth-picture {
+    background-image: url("../../../assets/images/carousel2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    margin-right: 10px;
+}
+
 
 .mat-card-image {
     margin: 0;
@@ -36,4 +68,13 @@ img {
 
 .mat-card {
     text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .content-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        min-height: 250px;
+        padding-bottom: 10px;
+    }
 }

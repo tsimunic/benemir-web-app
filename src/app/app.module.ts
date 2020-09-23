@@ -14,7 +14,6 @@ import { MatInputModule, MatButtonModule, MatDialogModule } from '@angular/mater
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { PlantsComponent } from './components/plants/plants.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { CarouselComponent } from './components/home/carousel/carousel.component';
 import { LanguageDialogComponent } from './components/dialogs/language-dialog/language-dialog.component';
 
 @NgModule({
@@ -24,7 +23,6 @@ import { LanguageDialogComponent } from './components/dialogs/language-dialog/la
     HeaderComponent,
     FooterComponent,
     PlantsComponent,
-    CarouselComponent,
     LanguageDialogComponent
   ],
   entryComponents: [

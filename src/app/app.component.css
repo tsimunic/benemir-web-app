@@ -11,9 +11,11 @@ app-header {
 .base {
     grid-row: 2;
     z-index: 0;
-    background-image: url("../assets/images/opacity.png");
+    /* background-image: url("../assets/images/background-bird.jpeg"); */
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: left bottom;
 }
 
 .content {
