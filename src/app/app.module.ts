@@ -12,9 +12,10 @@ import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatInputModule, MatButtonModule, MatDialogModule } from '@angular/material';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { PlantsComponent } from './components/plants/plants.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LanguageDialogComponent } from './components/dialogs/language-dialog/language-dialog.component';
+import { ShopComponent } from './components/shop/shop.component';
+import { HistoryComponent } from './components/history/history.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +23,9 @@ import { LanguageDialogComponent } from './components/dialogs/language-dialog/la
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    PlantsComponent,
-    LanguageDialogComponent
+    LanguageDialogComponent,
+    ShopComponent,
+    HistoryComponent
   ],
   entryComponents: [
     LanguageDialogComponent
