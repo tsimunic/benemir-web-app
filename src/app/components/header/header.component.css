@@ -1,16 +1,11 @@
 :host {
     display: grid;
-    grid-template-rows: 220px minmax(50px, auto) auto;
+    grid-template-rows: minmax(50px, auto);
     color: #3A45A3;
 }
 
-.logo-header {
-    grid-row: 1;
-    justify-self: center;
-}
-
 .header-main {
-    grid-row: 2;
+    grid-row: 1;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     background-color: #3A45A3;
@@ -38,18 +33,19 @@
     grid-row: 1;
     display: grid;
     color: white;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: auto auto;
     width: 100%
 }
 
 .main-title {
-    grid-column: 2;
-    font-size: 56px;
-    justify-self: center;
+    grid-column: 1;
+    font-size: 60px;
+    justify-self: end;
+    margin: 0;
 }
 
 .header-top-utility {
-    grid-column: 3;
+    grid-column: 2;
     justify-self: end;
     align-self: top;
     display: grid;
