@@ -48,12 +48,10 @@ export class HeaderComponent implements OnInit, AfterViewInit {
   }
 
   stickyHeaderFunction() {
-    console.log(window.pageYOffset, this.stickyPosition);
 
     if (window.pageYOffset > this.stickyPosition) {
       this.stickyHeader.nativeElement.classList.add('sticky');
       this.calculatedHeight = this.headerPlaceholderPosition - this.stickyPosition + 'px';
-      console.log(this.calculatedHeight);
     } else {
       this.stickyHeader.nativeElement.classList.remove('sticky');
       this.calculatedHeight = 'auto';

@@ -27,6 +27,8 @@ app-header {
 
 .main {
     grid-column: 2;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 

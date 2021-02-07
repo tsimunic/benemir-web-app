@@ -16,6 +16,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LanguageDialogComponent } from './components/dialogs/language-dialog/language-dialog.component';
 import { ShopComponent } from './components/shop/shop.component';
 import { HistoryComponent } from './components/history/history.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { TermsComponent } from './components/terms/terms.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { HistoryComponent } from './components/history/history.component';
     FooterComponent,
     LanguageDialogComponent,
     ShopComponent,
-    HistoryComponent
+    HistoryComponent,
+    ContactComponent,
+    TermsComponent
   ],
   entryComponents: [
     LanguageDialogComponent

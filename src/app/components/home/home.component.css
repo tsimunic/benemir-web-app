@@ -1,7 +1,6 @@
 :host {
     display: grid;
     grid-template-rows: auto;
-    padding-top: 10px;
     /*     color: #3A45A3;
  */
 }
