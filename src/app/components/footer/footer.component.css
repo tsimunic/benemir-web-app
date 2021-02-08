@@ -46,6 +46,10 @@ a {
     font-weight: bold;
 }
 
+.logo-picture {
+    width: 90px;
+}
+
 @media screen and (max-width: 819px) {
     .center {
         grid-column: 2;

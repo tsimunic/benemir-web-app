@@ -18,6 +18,7 @@ import { ShopComponent } from './components/shop/shop.component';
 import { HistoryComponent } from './components/history/history.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TermsComponent } from './components/terms/terms.component';
+import { IvyCarouselModule } from 'angular-responsive-carousel';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { TermsComponent } from './components/terms/terms.component';
     MatDialogModule,
     MatCardModule,
     MatInputModule,
-    NgbModule
+    NgbModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
