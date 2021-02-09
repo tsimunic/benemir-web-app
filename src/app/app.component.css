@@ -32,6 +32,11 @@ app-header {
 
 }
 
+.mat-snack-bar-container {
+    color: white;
+    background-color: #3d4ba8 !important;
+}
+
 .left-column {
     grid-column: 1;
 

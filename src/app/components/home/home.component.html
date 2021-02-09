@@ -1,20 +1,22 @@
 <div class="content">
-        <div class="content-row">
-            <carousel>
-                <div class="carousel-cell">
-                    <img src="../../../assets/images/samostan.jpg">
-                </div>
-                <div class="carousel-cell">
-                    <img src="../../../assets/images/samostan.jpg">
-                </div>
-                <div class="carousel-cell">
-                    <img src="../../../assets/images/samostan.jpg">
-                </div>
-                <div class="carousel-cell">
-                    <img src="../../../assets/images/samostan.jpg">
-                </div>
-            </carousel>
-        </div>
+    <div style="display: grid; justify-content: center; min-height: 400px;">
+        <carousel [cellsToShow]="1" [cellWidth]="'100%'" [objectFit]="'cover'" [autoplay]="true" [loop]="true" [height]="300"
+            class="carousel-styles">
+            <div class="carousel-cell">
+                <img src="../../../assets/images/samostan.jpg">
+            </div>
+            <div class="carousel-cell">
+                <img src="../../../assets/images/benemir.PNG">
+            </div>
+            <div class="carousel-cell">
+                <img src="../../../assets/images/carousel1.jpg">
+            </div>
+            <div class="carousel-cell">
+                <img src="../../../assets/images/carousel2.jpg">
+            </div>
+        </carousel>
+    </div>
+
 
     <div class="content-row">
         <mat-card>

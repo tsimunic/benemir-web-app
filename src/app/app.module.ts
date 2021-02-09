@@ -19,6 +19,7 @@ import { HistoryComponent } from './components/history/history.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TermsComponent } from './components/terms/terms.component';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
     MatCardModule,
     MatInputModule,
     NgbModule,
-    IvyCarouselModule
+    IvyCarouselModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

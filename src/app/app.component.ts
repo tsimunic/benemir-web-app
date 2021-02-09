@@ -1,5 +1,6 @@
 import { Component, ViewChild, ElementRef, HostListener, OnInit, AfterViewInit } from '@angular/core';
 import { SidebarService } from './services/sidebar.service';
+import {  MatSnackBar,  MatSnackBarHorizontalPosition,  MatSnackBarVerticalPosition} from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-root',
@@ -11,9 +12,12 @@ export class AppComponent implements OnInit, AfterViewInit {
   initialTopPosition;
   relativeTopPosition;
   componentTop;
+  horizontalPosition: MatSnackBarHorizontalPosition = 'right';
+  verticalPosition: MatSnackBarVerticalPosition = 'bottom';
 
   constructor(
-    private sidebarService: SidebarService
+    private sidebarService: SidebarService,
+    private _snackBar: MatSnackBar
   ) { }
 
   @ViewChild('stickyHeaderApp', { static: false }) stickyHeader: ElementRef;
@@ -27,6 +31,10 @@ export class AppComponent implements OnInit, AfterViewInit {
       } else {
         this.closeNav();
       }
+    });
+    let snackBarRef = this._snackBar.open('Korištenjem ovih web stranica slažeš se sa upotrebom kolačića (cookies).', 'x', {
+      horizontalPosition: this.horizontalPosition,
+      verticalPosition: this.verticalPosition
     });
     /* this.sidebarService.currentBottomHeaderPosition.subscribe(position => {
       console.log(position.substring(0, position.length - 2));
@@ -59,7 +67,7 @@ export class AppComponent implements OnInit, AfterViewInit {
       document.getElementById('mySidenav').style.top = currentBottomHeaderPosition;
     } else {
       const newSidebarPosition = this.initialTopPosition +
-      +currentBottomHeaderPosition.substring(0, currentBottomHeaderPosition.length - 2) - this.componentTop;
+        +currentBottomHeaderPosition.substring(0, currentBottomHeaderPosition.length - 2) - this.componentTop;
       document.getElementById('mySidenav').style.top = (newSidebarPosition + 'px');
     }
   }

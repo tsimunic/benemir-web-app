@@ -14,6 +14,7 @@ mat-card {
     grid-row: 1;
     justify-self: center;
     text-align: center;
+    max-width: 100%;
 }
 
 .content-row {
@@ -21,6 +22,7 @@ mat-card {
     grid-template-columns: 1fr 1fr;
     min-height: 350px;
     padding-bottom: 10px;
+    width: 100%;
 }
 
 .row-text {
@@ -30,6 +32,11 @@ mat-card {
 
 .row-picture {
     max-width: auto;
+}
+
+.carousel-styles {
+    width: 813px;
+    height: 100%;
 }
 
 .first-picture {
@@ -51,7 +58,7 @@ mat-card {
 .picture {
     height: 350px;
     width: 100%;
-    border-radius: 40%;
+    border-radius: 50%;
 }
 
 .left {
@@ -107,4 +114,23 @@ mat-card {
         justify-self: center;
         height: 250px;
     }
+    .carousel-styles {
+        width: 800px;
+    }
 }
+@media screen and (max-width: 821px) {
+    .carousel-styles {
+        width: 600px;
+    }
+ }
+
+ @media screen and (max-width: 650px) {
+    .carousel-styles {
+        width: 400px;
+    }
+ }
+ @media screen and (max-width: 550px) {
+    .carousel-styles {
+        width: 300px;
+    }
+ }
