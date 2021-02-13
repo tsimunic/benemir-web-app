@@ -1,1 +1,68 @@
-<h1>U izradi...</h1>
+<mat-card>
+    <h1 class="main-title">
+        Samostan Benediktinki Sv. Andrije na Rabu</h1>
+    <p>Benediktinski samostan sa crkvom svetog Andrije, utemeljen tijekom XI:, stoljeća izdiže se direktno iz litica uz
+        obalu uvale sv. Eufemije. Samostan je bio osnovan za djevojke iz plemićkih rapskih obitelji. Neki povjesničari
+        navode kako je to bilo 1123. godine, ali bez dokumentiranog oslonca. Prvi pak pisani spomen koji nam svjedoči
+        drevnu
+        povijest ovog samostana je natpis na zvoniku gdje je imenom spomenuta opatica Ivana. Jednostavni romanički
+        zvonik podignut je 1181. i najstariji je od četiri rapska zvonika.</p>
+</mat-card>
+
+<div class="carousel-container">
+    <drag-scroll #samostan scrollbar-hidden="true">
+        <img drag-scroll-item src="../../../assets/images/DSC_8552.jpg" />
+        <img drag-scroll-item src="../../../assets/images/samostan.jpg" />
+        <img drag-scroll-item src="../../../assets/images/Imp_pic318v.jpg" />
+        <img drag-scroll-item src="../../../assets/images/samostan_zrak1.jpg" />
+        <img drag-scroll-item src="../../../assets/images/0211 063.jpg" />
+    </drag-scroll>
+    <div style="min-height: 50px; place-self: center;">
+        <button mat-button (click)="moveLeftSamostan()">
+            <mat-icon>keyboard_arrow_left</mat-icon>
+        </button>
+        <button mat-button (click)="moveRightSamostan()">
+            <mat-icon>keyboard_arrow_right</mat-icon>
+        </button>
+    </div>
+</div>
+
+<mat-card>
+    <p>Samostanska crkva sv. Andrije je protoromanička trobrodna bazilika sagrađena u 11. st. a dao ju je izgraditi
+        biskup Madius čije je ime uklesano na natpisu ulaznog praga u crkvu. U 14. st. bila je obnovljena a polovicom
+        15. st. temeljito preinačena. U 18 st. crkva je barokizirana – iz tog doba potječe i barokni drveni oltar, rad
+        venecijanskih majstora sa oltarnom palom slikara Novellia. Drvene figure po strani prikazuju sv.Benedikta i
+        apostola sv.Andriju.</p>
+    <p>Desno od glavnog oltara u lađi crkve nalazi se oltar Majke Božje koja se od 16. st. u samostanu i na cijelom
+        otoku štuje kao Čudotvorna Gospa Rapska. Kretsko-bizantska ikona Bogorodice s Kristom u naručju iz prve je
+        polovice XVI. stoljeća. Srebreni i pozlaćeni okvir ikone vrijedan je rad mletačkog zlatarstva iz XVIII.
+        stoljeća. Na ulazu u samostansku kapelu nalazi se vrijedna kretsko-mletačka ikona oplakivanja Krista, tempera na
+        drvu iz druge polovice XVI. stoljeća. U samostanskoj biblioteci, osim moderne duhovne literature, čuvaju se i
+        vrijedni stari spisi, dokumenti i pergamene.</p>
+</mat-card>
+<div class="carousel-container">
+    <drag-scroll #samostanUnutra scrollbar-hidden="true">
+        <img drag-scroll-item src="../../../assets/images/naša Gospa cijela.JPG" />
+        <img drag-scroll-item src="../../../assets/images/crkva 018.JPG" />
+        <img drag-scroll-item src="../../../assets/images/crkva 013.JPG" />
+        <img drag-scroll-item src="../../../assets/images/Benediktinke-Rab.png" />
+        <img drag-scroll-item src="../../../assets/images/Crkva Sv.Andrije unutrašnjost.jpg" />
+        <img drag-scroll-item src="../../../assets/images/crkva 022.JPG" />
+    </drag-scroll>
+    <div style="min-height: 50px; place-self: center;">
+        <button mat-button (click)="moveLeftSamostanUnutra()">
+            <mat-icon>keyboard_arrow_left</mat-icon>
+        </button>
+        <button mat-button (click)="moveRightSamostanUnutra()">
+            <mat-icon>keyboard_arrow_right</mat-icon>
+        </button>
+    </div>
+</div>
+<mat-card>
+    <p>Koludrice sv. Andrije vjerne su svom poslanju molitve i rada. Molitva njegovana i brižno pripremana čini okosnicu
+        njihova svakodnevnog života, omogućavajući i drugima da budu dionicima njihova molitve i sabranosti. U ozračju
+        samostanskog mira, njeguju monaško gostoprimstvo.</p>
+    <p>Kao i prije gotovo tisuću godina tako i danas koludrice rapskog samostana kao čuvarice bedema grada, svojom
+        molitvom i radom zagovaraju za potrebe Raba i svijeta moleći da Gospodin po zagovoru svetog Benedikta na svih
+        izlije svoj blagoslov.</p>
+</mat-card>

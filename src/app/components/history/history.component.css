@@ -1,0 +1,65 @@
+:host {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+mat-card {
+    margin: 5px;
+}
+
+p {
+    text-align: left;
+}
+
+.mat-button {
+    background-color: white;
+    color: #3A45A3;
+    margin: 10px;
+}
+
+drag-scroll {
+    margin-top: 10px;
+    height: 400px;
+    width: auto;
+}
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+.carousel-container {
+    display: grid;
+    justify-content: center;
+    min-height: 400px;
+    max-height: 500px;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 821px) {
+    .carousel-container {
+        min-height: 400px;
+        max-height: 400px;
+    }
+    drag-scroll {
+        height: 300px;
+    }
+    img {
+        height: 300px;
+    }
+        
+}
+
+@media screen and (max-width: 650px) {
+    .carousel-container {
+        min-height: 300px;
+        max-height: 300px;
+    }
+    drag-scroll {
+        height: 250px;
+    }
+    img {
+        height: 250px;
+    }
+}

@@ -1,0 +1,52 @@
+:host {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+mat-card {
+    margin: 5px;
+}
+
+p {
+    text-align: left;
+}
+
+.mat-icon {
+    vertical-align: middle;
+}
+
+#benemir_map {
+    height: 400px;
+    width: 100%;
+}
+
+.contact-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-up {
+    grid-column: 1;
+}
+
+.right-down {
+    grid-column: 2;
+}
+
+@media screen and (max-width: 660px) {
+    .contact-main {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: auto;
+    }
+
+    .left-up {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .right-down {
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: 25px;
+    }
+}

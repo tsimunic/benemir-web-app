@@ -18,8 +18,10 @@ import { ShopComponent } from './components/shop/shop.component';
 import { HistoryComponent } from './components/history/history.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TermsComponent } from './components/terms/terms.component';
-import { IvyCarouselModule } from 'angular-responsive-carousel';
-import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { DragScrollModule } from 'ngx-drag-scroll';
+import { PrivacyComponent } from './components/privacy/privacy.component';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     ShopComponent,
     HistoryComponent,
     ContactComponent,
-    TermsComponent
+    TermsComponent,
+    PrivacyComponent
   ],
   entryComponents: [
     LanguageDialogComponent
@@ -48,8 +51,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     MatCardModule,
     MatInputModule,
     NgbModule,
-    IvyCarouselModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    DragScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]

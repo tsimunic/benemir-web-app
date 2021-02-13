@@ -5,6 +5,7 @@ import { ShopComponent } from './components/shop/shop.component';
 import { HistoryComponent } from './components/history/history.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TermsComponent } from './components/terms/terms.component';
+import { PrivacyComponent } from './components/privacy/privacy.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'history', component: HistoryComponent},
   { path: 'contact', component: ContactComponent},
   { path: 'terms', component: TermsComponent},
+  { path: 'privacy', component: PrivacyComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component:  HomeComponent}
 ];

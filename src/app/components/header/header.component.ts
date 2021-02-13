@@ -2,6 +2,7 @@ import { Component, OnInit, HostListener, ViewChild, ElementRef, AfterViewInit, 
 import { SidebarService } from 'src/app/services/sidebar.service';
 import { MatDialog } from '@angular/material';
 import { LanguageDialogComponent } from '../dialogs/language-dialog/language-dialog.component';
+import { NavigationStart, Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -12,9 +13,18 @@ export class HeaderComponent implements OnInit, AfterViewInit {
 
 
   constructor(
+    private router: Router,
     private sidebarService: SidebarService,
     public dialog: MatDialog
-  ) { }
+  ) { 
+    router.events.subscribe((val) => {
+      if (val instanceof NavigationStart && this.hamburgerActivated == true) {
+        this.activateHamburger();          
+      }
+         
+      
+  });
+  }
 
   hamburgerActivated = false;
   dropdownDisplay = 'none';
