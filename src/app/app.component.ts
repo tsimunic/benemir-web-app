@@ -16,11 +16,11 @@ export class AppComponent implements OnInit, AfterViewInit {
   componentTop;
   horizontalPosition: MatSnackBarHorizontalPosition = 'right';
   verticalPosition: MatSnackBarVerticalPosition = 'bottom';
-  firstPageOpen = true;
+  showSnackbar = true;
   constructor(
     private sidebarService: SidebarService,
     private router: Router,
-    private _snackBar: MatSnackBar,
+    private snackBar: MatSnackBar,
     translate: TranslateService
   ) {
     translate.setDefaultLang('hr');
@@ -39,12 +39,14 @@ export class AppComponent implements OnInit, AfterViewInit {
         this.closeNav();
       }
     });
-    if (this.firstPageOpen && localStorage.getItem("firstPageOpen") !== "1") {
-      this.firstPageOpen = false;
-      localStorage.setItem("firstPageOpen", "1");
-      let snackBarRef = this._snackBar.open('Korištenjem ovih web stranica slažeš se sa upotrebom kolačića (cookies).', 'x', {
+    
+    if (localStorage.getItem("showSnackbar") !== "1") {
+      let snackBarRef = this.snackBar.open('Korištenjem ovih web stranica slažeš se sa upotrebom kolačića (cookies).', 'x', {
         horizontalPosition: this.horizontalPosition,
         verticalPosition: this.verticalPosition
+      });
+      snackBarRef.onAction().subscribe(() => {
+        localStorage.setItem("showSnackbar", "1");
       });
     }
     
