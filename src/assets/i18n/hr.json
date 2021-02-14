@@ -1,0 +1,94 @@
+{
+    "NAVIGATION": {
+        "HOME": "O nama",
+        "SHOP": "web trgovina",
+        "HISTORY": "Samostan",
+        "CONTACT": "Kontakt"
+    },
+    "HOME": {
+        "ABOUT_TITLE": "O nama",
+        "ABOUT_TEXT_1": "BENEMIR d.o.o. je tvrtka u području proizvodnje, trgovine i usluga. Preuzima nasljeđe, iskustvo i recepture tisućljetnog Samostana Benediktinki sv. Andrije na Rabu u proizvodnji originalnih i autohtonih proizvoda kao što su rapska torta, tinkture, masti, likeri, marmelade.",
+        "ABOUT_TEXT_2": "Osnovni cilj naše djelatnosti je da se u proizvodnji finalnih proizvoda koriste lokalno ekološki proizvedene sirovine.",
+        "RAPSKA_TORTA_TITLE": "Rapska torta",
+        "RAPSKA_TORTA_TEXT": "Iz samostana koludrica benediktinki u Rabu potječe i Rapska torta. Kolač koji su, kako usmena predaju kaže, napravile koludrice prigodom posjeta pape Aleksandra III Rabu, 1177. Stoljećima prepisivan i u svojoj izvornosti čuvan, recept je došao i do naših dana.",
+        "PRODUCTS_TITLE": "Domaći proizvodi",
+        "PRODUCTS_TEXT": "Obnavljamo zapušteno poljoprivredno zemljište na poluotoku Kalifrontu i sadimo voćnjake. Pokrećemo poljoprivrednu ekološku i održivu proizvodnju voćaka i ljekovitog bilja. Planiramo proizvoditi sirovine koje se koriste za rapsku tortu (bademi, naranče, limuni), tinkture, masti (ljekovito bilje) i likere.",
+        "HANDWORK_TITLE": "Ručni radovi",
+        "HANDWORK_TEXT": "Ono što nas čini prepoznatljivima na tržištu su dugogodišnja znanja i radno iskustvo naših stručnjaka i suradnika u kreiranju i izradi različitih proizvoda. Naša filozofija počiva na dodavanju vrijednosti kroz razvoj originalnih i zdravih rješenja kao odgovora na izazove s kojima se suočavaju naši kupci."
+    },
+    "SHOP": {
+        "SHOP_TITLE": "Web trgovina - u izradi",
+        "SHOP_TEXT_DOWNLOAD": "Preuzmite katalog proizvoda ",
+        "SHOP_TEXT": "i kontaktirajte nas na adresi prodaja@benemir.com"
+    },
+    "HISTORY": {
+        "HISTORY_TITLE": "Samostan Benediktinki Sv. Andrije na Rabu",
+        "HISTORY_TEXT_1": "Benediktinski samostan sa crkvom svetog Andrije, utemeljen tijekom XI:, stoljeća izdiže se direktno iz litica uz obalu uvale sv. Eufemije. Samostan je bio osnovan za djevojke iz plemićkih rapskih obitelji. Neki povjesničari navode kako je to bilo 1123. godine, ali bez dokumentiranog oslonca. Prvi pak pisani spomen koji nam svjedoči drevnu povijest ovog samostana je natpis na zvoniku gdje je imenom spomenuta opatica Ivana. Jednostavni romanički zvonik podignut je 1181. i najstariji je od četiri rapska zvonika.",
+        "HISTORY_TEXT_2": "Samostanska crkva sv. Andrije je protoromanička trobrodna bazilika sagrađena u 11. st. a dao ju je izgraditi biskup Madius čije je ime uklesano na natpisu ulaznog praga u crkvu. U 14. st. bila je obnovljena a polovicom 15. st. temeljito preinačena. U 18 st. crkva je barokizirana – iz tog doba potječe i barokni drveni oltar, rad venecijanskih majstora sa oltarnom palom slikara Novellia. Drvene figure po strani prikazuju sv.Benedikta i apostola sv.Andriju.",
+        "HISTORY_TEXT_3": "Desno od glavnog oltara u lađi crkve nalazi se oltar Majke Božje koja se od 16. st. u samostanu i na cijelom otoku štuje kao Čudotvorna Gospa Rapska. Kretsko-bizantska ikona Bogorodice s Kristom u naručju iz prve je polovice XVI. stoljeća. Srebreni i pozlaćeni okvir ikone vrijedan je rad mletačkog zlatarstva iz XVIII. stoljeća. Na ulazu u samostansku kapelu nalazi se vrijedna kretsko-mletačka ikona oplakivanja Krista, tempera na drvu iz druge polovice XVI. stoljeća. U samostanskoj biblioteci, osim moderne duhovne literature, čuvaju se i vrijedni stari spisi, dokumenti i pergamene.",
+        "HISTORY_TEXT_4": "Koludrice sv. Andrije vjerne su svom poslanju molitve i rada. Molitva njegovana i brižno pripremana čini okosnicu njihova svakodnevnog života, omogućavajući i drugima da budu dionicima njihova molitve i sabranosti. U ozračju samostanskog mira, njeguju monaško gostoprimstvo.",
+        "HISTORY_TEXT_5": "Kao i prije gotovo tisuću godina tako i danas koludrice rapskog samostana kao čuvarice bedema grada, svojom molitvom i radom zagovaraju za potrebe Raba i svijeta moleći da Gospodin po zagovoru svetog Benedikta na svih izlije svoj blagoslov."
+    },
+    "CONTACT": {
+        "CONTACT_TITLE": "Kontakt",
+        "COMPANY_NAME": "Benemir d.o.o.",
+        "ADDRESS": "Ivana Rabljanina 6, 51280 Rab",
+        "PHONE_1": "+385 5155 0183",
+        "PHONE_2": "+385 99 8244 254",
+        "EMAIL": "prodaja@benemir.com",
+
+        "SUMMER_TITLE": "Ljetno radno vrijeme",
+        "SUMMER_DATE": "01.06. - 30.09.",
+        "SUMMER_DAYS_1": "Ponedjeljak - četvrtak: 09-14 & 18-20",
+        "SUMMER_DAYS_2": "Petak, subota: 09-14",
+
+        "WINTER_TITLE": "Zimsko radno vrijeme",
+        "WINTER_DATE": "01.10. - 31.05.",
+        "WINTER_DAYS": "Ponedjeljak - subota",
+        "WINTER_TIME": "09:15-12:30",
+
+        "COMPANY_DESCRIPTION": "Poduzeće BENEMIR d.o.o. za proizvodnju, trgovinu i usluge upisano kod Trgovačkog suda u Rijeci, u registarski uložak",
+        "MBS": "MBS: 040406367",
+        "OIB": "OIB: 30551645134",
+        "EUID": "EUID: HRSR 040406367",
+        "DZS_MBPS": "Državni zavod za statistiku - Matični broj poslovnog subjekta: 5143985",
+        "DJELATNOST": "Djelatnost: Ostala trgovina na malo novom robom u specijaliziranim prodavaonicama",
+        "OZNAKA_RAZREDA": "Oznaka razreda: 47.78",
+        "ACCOUNT": "Poslovni račun: PBZ: IBAN HR2923400091111028298"
+    },
+    "TERMS": {
+        "TERMS_TITLE": "Uvjeti korištenja",
+        "TERMS_TEXT_1": "Benemir d.o.o. izdavač je internet stranice www.benemir.com. Korištenjem internetske stranice smatra se da ste kao korisnik u potpunosti upoznati i suglasni s navedenim Uvjetima korištenja i Uvjetima prodaje.",
+        "TERMS_TEXT_2": "Ukoliko se s istima ne slažete i ne prihvaćate ih, molimo vas da se ne koristite ovom internetskom stranicom. Svakim daljnjim korištenjem ovih Internetskih stranica nakon upoznavanja s Uvjetima korištenja, smatra se da su korisnici suglasni s ovdje iznesenim uvjetima i pravilima te pristaju na korištenje internetskih stranica sukladno tim uvjetima. Korisnik je suglasan da je korištenje internetskih stranica isključivo na njegovu odgovornost. Benemir d.o.o. ne može ni na koji način jamčiti da korištenje ove internetske stranice neće biti prekinuto ili bez pogrešaka, niti mogu jamčiti za posljedice korištenja ove internetske stranice ili točnost, pouzdanost ili sadržaj bilo koje informacije, usluge ili robe dane preko ovih internetskih stranica.",
+        "TERMS_TEXT_3": "Korisnik se slaže i potvrđuje da Benemir d.o.o. nije odgovoran za neprikladno ili protuzakonito ponašanje drugih korisnika ili trećih strana te da je rizik od eventualnih šteta nastalih kao rezultat navedenog u potpunosti na korisniku. Izjava o odgovornosti odnosi se na sve štete uzrokovane bilo kakvom greškom, brisanjem, prekidom, računalnim virusom, kvarom, kašnjenjem u radu ili prijenosu, prekidom u komunikacijskoj liniji, krađom, raskidom ugovora, uništenjem ili neovlaštenim pristupom, promjenama ili zlouporabom zapisa, neprikladnim ponašanjem, nemarom, ili bilo kakvom drugom radnjom.",
+        "TERMS_TEXT_4": "Benemir d.o.o. ili druga fizička ili pravna osoba uključena u stvaranje, proizvodnju i distribuciju ove intenetske stranice nisu odgovorni ni za kakvu štetu nastalu kao posljedica korištenja ili nemogućnosti korištenja ovih internetskih stranica.",
+        "TERMS_TEXT_5": "Bilo kakva oštećenja opreme korisnika nastala kao posljedica korištenja ovih internetskih stranica nisu u odgovornosti Benemir d.o.o.. Benemir d.o.o. zadržava pravo u svakom trenutku, i bez prethodne obavijesti, ukoliko to smatra potrebnim, ukinuti ili izmijeniti bilo koji od ovdje navedenih Uvjeta korištenja internetske stranice ili Uvijeta prodaje. Predmetne izmjene mogu između ostalog uključivati i uvođenje određenih naknada ili naplata, pa savjetujemo korisnike da periodično ponovno detaljno pročitaju informacije sadržane u Uvjetima korištenja i Uvjetima prodaje, a kako bi bili informirani o eventualnim promjenama.",
+        "TERMS_TEXT_6": "Također, Benemir d.o.o. zadržava pravo u bilo kojem trenutku izmijeniti ili ukinuti bilo koji segment poslovanja, uključujući, i bez ograničenja, vrijeme dostupnosti, sadržaj, kao i opremu potrebnu za pristup ili korištenje internet stranica.",
+        "TERMS_TEXT_7": "Svaka eventualna izmjena ili brisanje uvjeta korištenja važeća je prema trećima odmah po objavi na internetskim stranicama. Svako korištenje, osim upoznavanja s izmjenama uvjeta, predmetnih internetskih stranica od strane krajnjeg korisnika nakon takve promjene podrazumijevat će se kao prihvaćanje tih promjena.",
+        "TERMS_TEXT_8": "Korisnici ne smiju putem ovih internetskih stranica objavljivati, prenositi ili učiniti dostupnima na bilo koji način nikakve materijale čijim sadržajem se na bilo koji način krše prava drugih, primjerice, sadržaj koji je uvredljiv, klevetnički, koji narušava ili ugrožava privatnost itd., kao ni materijale nezakonitog sadržaja i forme. Benemir d.o.o. zadržava diskrecijsko pravo da sam ocijeni je li došlo do povrede obveza od strane korisnika. Korisnik ne smije bez prethodnog pismenog odobrenja Benemir d.o.o. objavljivati, prenositi ili učiniti dostupnima na bilo koji način sadržaj koji sadrži oglas, reklamu ili ponudu bilo čijih proizvoda i usluga, kao ni vjersku, političku i nekomercijalnu promidžbu, a posebno ne smije vrbovati druge korisnike internetskih stranica da postanu korisnici druge usluge koja je direktna ili indirektna konkurencija. Materijali koji se nalaze na internetskim stranicama u vlasništvu su tvrke Benemir d.o.o. te su kao takvi zaštićeni zakonom, ili se koriste sukladno odobrenju nositelja autorskih prava te nositelja prava na žigovima, kao i sukladno drugim potrebnim odobrenjima. Benemir d.o.o. je također nositelj autorskih prava na cjelokupnom idejnom sadržaju internetske stranice neophodnom za ispravno i nesmetano funkcioniranje.",
+        "TERMS_TEXT_9": "Ilustracije koje su objavljene na stranici autorska su dijela i vlasništvo tvrtke Benemir d.o.o. ili besplatne za upotrebu.",
+        "TERMS_TEXT_10": "Zabranjeno je bilo kakva kopiranje, prijenos, distribucija, povezivanje, objavljivanje ili na bilo koji način mijenjanje ovih internetskih stranica bez pismenog odobrenja Benemir d.o.o.. Svako kršenje spomenute zabrane može imati za posljedicu povredu autorskih prava, prava žiga, ili kakvog drugog prava pa stoga može proizvesti neželjene učinke kao što su pokretanja više vrsta sudskih postupaka, a osobito može dovesti do kaznenog progona. Korisnik ne smije mijenjati, objavljivati, prenositi, sudjelovati u prijenosu ili prodaji, stvarati izvedenice, ili na bilo koji drugi način iskorištavati bilo koji sadržaj sa internetske stranice u cijelosti ili djelomično.",
+        "TERMS_TEXT_11": "Također nije dozvoljeno kopiranje, redistribucija, ponovni prijenos, izdavanje ili komercijalno iskorištavanje preuzetog materijala. Korisnik se slaže da neće smatrati odgovornim i da će obeštetiti Benemir d.o.o. od svih zahtjeva za naknadom štete i troškova.",
+        "TERMS_TEXT_12": "Benemir d.o.o. nije odgovoran za bilo kakav eventualni gubitak ili štetu nastalu iz razloga što se korisnik oslonio na informacije dobivene na internetskim stranicama. Benemir d.o.o. se izričito ograđuje u svakom smislu od sadržaja materijala na internet stranicama trećih strana, a na koje bi se moglo pristupiti sa internetske stranice. U slučaju da je neka od stavki ovih uvjeta korištenja ništava, takva ništavost neće utjecati na valjanost bilo koje druge odredbe ovih uvjeta, te će preostali dijelovi ovih Uvjeta ostati na snazi, a ništavna odredba će se zamijeniti valjanom odredbom koja po smislu i pravoj volji najviše odgovara odredbi koja je ništavna. Ukoliko bilo koja strana ne iskoristi svoja prava iz ovih uvjeta korištenja, to se neće smatrati odricanjem ili gubitkom tih prava, kao ni bilo kojih drugih ovdje navedenih prava.",
+        "TERMS_TEXT_13": "Osobama mlađim od 14. godina zabranjeno je korištenje internetske stranice. Bilo koji spor ili zahtjev, proizašao iz, ili koji je u vezi s ovim Uvjetima, ili u vezi s njihovim provođenjem, u nadležnosti je suda u Zagrebu i rješava se u skladu s propisima Republike Hrvatske.",
+        "TERMS_TEXT_14": "Posjetom stranici smatra se da je korisnik ove Uvjete korištenja u cijelosti pročitao."
+    },
+    "PRIVACY": {
+        "PRIVACY_TITLE": "Politika privatnosti",
+        "PRIVACY_SUBTITLE_1": "Izjava o zaštiti i prikljupljanju osobnih podataka i njihovom korištenju",
+        "PRIVACY_SUBTITLE_2": "Vrsta osobnih podataka koji se prikupljaju preko mrežne stranice",
+        "PRIVACY_SUBTITLE_3": "Način na koji se Benemir d.o.o. koristi korisnikovim osobnim podacima",
+        "PRIVACY_SUBTITLE_4": "Način na koji Benemir d.o.o. koristi moje osobne podatke",
+        "PRIVACY_SUBTITLE_5": "Dijeli li Benemir d.o.o. moje osobne podatke?",
+        "PRIVACY_SUBTITLE_6": "Moja prava u pogledu upravljanja mojim osobnim podacima",
+        "PRIVACY_TEXT_1": "Nama je privatnost posjetitelja i korisnika posebno važna. Sve osobne informacije koje ostavite na našoj stranici su sigurno pohranjene, a skupljamo samo podatke koje dopušta zakon o zaštiti osobnih podataka i zakon o elektronskim komunikacijama.",
+        "PRIVACY_TEXT_2": "Benemir d.o.o. se obavezuje pružati zaštitu osobnim podacima korisnika, na način da prikuplja samo nužne, osnovne podatke o korisnicima koji su nužni za ispunjenje naših obveza; informira korisnike o načinu korištenja prikupljenih podataka, redovito daje korisnicima mogućnost izbora o upotrebi njihovih podataka, uključujući mogućnost odluke žele li ili ne da se njihovo ime ukloni s lista koje se koriste za marketinške kampanje. Svi se podaci o korisnicima strogo čuvaju i dostupni su samo djelatnicima kojima su ti podaci nužni za obavljanje posla. Svi djelatnici Benemir d.o.o. i poslovni partneri odgovorni su za poštivanje načela zaštite privatnosti.",
+        "PRIVACY_TEXT_3": "Benemir d.o.o. može prikupljati sljedeće osobne podatke korisnika mrežne stranice preko odgovarajućih obrazaca: ime, adresa e-pošte, poštanska adresa, telefonski broj, datum rođenja, spol kada korisnik posjeti mrežnu stranicu, registrira se, kontaktira podršku ili sudjeluje u promocijama ili anketama poduzeća Benemir d.o.o.. Spomenute se informacije ni u kojem slučaju neće prikupljati preko kanala koji nisu prethodno navedeni, čak ni kada su oni dostupni na internetu (e-pošta, razgovor, Facebook itd.). Ako se spomenute informacije prime preko jednog od navedenih načina, Benemir d.o.o. se njima neće koristiti ni u koju svrhu navedenu u sljedećem odjeljku. Benemir d.o.o. k tomu neće snositi odgovornost za sigurnost spomenutih podataka niti može jamčiti njihovu povjerljivost.",
+        "PRIVACY_TEXT_4": "U svim su slučajevima podaci zahtijevani preko mrežne stranice potrebni radi pružanja optimalne usluge korisniku. U slučaju kada korisnik ne pruži zahtijevane podatke, Benemir d.o.o. ne može jamčiti da će pružene informacije i usluge u potpunosti zadovoljiti korisnikove potrebe.",
+        "PRIVACY_TEXT_5": "Benemir d.o.o. će obrađivati korisničke podatke u sljedeće svrhe: Slanje komercijalnih informacija e-poštom kako bi ih se izvijestilo o novim proizvodima, posebnim ponudama i novostima u vezi s mrežnom stranicom i/ili poduzećem Benemir d.o.o. općenito, newsletterima. Spomenute komercijalne informacije odnose se na proizvode ili usluge koje nudi Benemir d.o.o. kao i svi suradnici ili partneri s kojima je poduzeće sklopilo ugovor o prodajnoj promociji među svojim kupcima. Suradnici ili partneri ni u kojem slučaju neće imati pristup osobnim podacima korisnika. U svim će slučajevima komercijalne obavijesti upućivati Benemir d.o.o. te će se one odnositi na proizvode i usluge unutar poslovnog sektora poduzeća. Korisnici mogu otkazati pružanje svih pretplaćenih usluga klikom na odjeljak Pretplate.",
+        "PRIVACY_TEXT_6": "Mrežna stranica koristi se tehnologijama za zaštitu podataka kao što su vatrozid, postupci za provjeru pristupa i kriptografski mehanizmi radi sprječavanja svih oblika neovlaštenog pristupa podacima i jamčenja povjerljivosti podataka. Radi postizanja spomenutih ciljeva, korisnici prihvaćaju da će Benemir d.o.o. prikupljati podatke u svrhu provjere kontrola pristupa.",
+        "PRIVACY_TEXT_7": "Poduzeće Benemir d.o.o. izjavljuje da je usvojilo sve tehničke i organizacijske mjere potrebne za jamčenje sigurnosti i cjelovitosti osobnih podataka koje obrađuje te za sprječavanje njihova gubitka, izmjenjivanja i/ili neovlaštenog pristupa preko trećih strana.",
+        "PRIVACY_TEXT_8": "Benemir d.o.o. izričito obavještava i jamči korisnicima da se njihovi osobni podaci ni u kojem slučaju neće prosljeđivati trećim stranama i da će prije prosljeđivanja osobnih podataka zahtijevati izričiti, informirani i jasni pristanak njihovih vlasnika.",
+        "PRIVACY_TEXT_9": "Poduzeće Benemir d.o.o. korisnicima u svakom trenutku jamči mogućnost iskorištavanja njihova prava na pristup, ispravljanje, poništavanje ili protivljenje osobnim podacima koje su pružili pod uvjetima sadržanima u primjenjivom zakonodavstvu. Korisnici mrežne stranice mogu iskoristiti spomenuta prava slanjem pisanog zahtjeva, uz prilaganje kopije njihove nacionalne identifikacijske isprave, na adresu info@benemir.com"
+    }
+}

@@ -1,6 +1,7 @@
 import { Component, ViewChild, ElementRef, HostListener, OnInit, AfterViewInit } from '@angular/core';
 import { SidebarService } from './services/sidebar.service';
 import {  MatSnackBar,  MatSnackBarHorizontalPosition,  MatSnackBarVerticalPosition} from '@angular/material/snack-bar';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -14,11 +15,15 @@ export class AppComponent implements OnInit, AfterViewInit {
   componentTop;
   horizontalPosition: MatSnackBarHorizontalPosition = 'right';
   verticalPosition: MatSnackBarVerticalPosition = 'bottom';
-
+  firstPageOpen = true;
   constructor(
     private sidebarService: SidebarService,
-    private _snackBar: MatSnackBar
-  ) { }
+    private _snackBar: MatSnackBar,
+    translate: TranslateService
+  ) {
+    translate.setDefaultLang('hr');
+    translate.use('hr');
+   }
 
   @ViewChild('stickyHeaderApp', { static: false }) stickyHeader: ElementRef;
   @ViewChild('belowHeader', { static: false }) belowHeader: ElementRef;
@@ -32,10 +37,15 @@ export class AppComponent implements OnInit, AfterViewInit {
         this.closeNav();
       }
     });
-    let snackBarRef = this._snackBar.open('Korištenjem ovih web stranica slažeš se sa upotrebom kolačića (cookies).', 'x', {
-      horizontalPosition: this.horizontalPosition,
-      verticalPosition: this.verticalPosition
-    });
+    if (this.firstPageOpen && localStorage.getItem("firstPageOpen") !== "1") {
+      this.firstPageOpen = false;
+      localStorage.setItem("firstPageOpen", "1");
+      let snackBarRef = this._snackBar.open('Korištenjem ovih web stranica slažeš se sa upotrebom kolačića (cookies).', 'x', {
+        horizontalPosition: this.horizontalPosition,
+        verticalPosition: this.verticalPosition
+      });
+    }
+    
     /* this.sidebarService.currentBottomHeaderPosition.subscribe(position => {
       console.log(position.substring(0, position.length - 2));
       if (position === 'auto') {
