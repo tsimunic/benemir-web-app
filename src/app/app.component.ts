@@ -2,6 +2,7 @@ import { Component, ViewChild, ElementRef, HostListener, OnInit, AfterViewInit }
 import { SidebarService } from './services/sidebar.service';
 import {  MatSnackBar,  MatSnackBarHorizontalPosition,  MatSnackBarVerticalPosition} from '@angular/material/snack-bar';
 import {TranslateService} from '@ngx-translate/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   firstPageOpen = true;
   constructor(
     private sidebarService: SidebarService,
+    private router: Router,
     private _snackBar: MatSnackBar,
     translate: TranslateService
   ) {
@@ -59,6 +61,12 @@ export class AppComponent implements OnInit, AfterViewInit {
         document.getElementById('mySidenav').style.top = (newSidebarPosition + 'px');
       }
     }); */
+  }
+
+  closeSidebarOnNavToCurrent(buttonInfo) {
+    if (buttonInfo === this.router.url) {
+      this.sidebarService.changeSidebarStatus();
+    }
   }
 
   ngAfterViewInit() {

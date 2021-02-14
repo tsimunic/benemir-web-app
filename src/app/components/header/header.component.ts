@@ -20,9 +20,7 @@ export class HeaderComponent implements OnInit, AfterViewInit {
     router.events.subscribe((val) => {
       if (val instanceof NavigationStart && this.hamburgerActivated == true) {
         this.activateHamburger();          
-      }
-         
-      
+      } 
   });
   }
 
@@ -73,7 +71,7 @@ export class HeaderComponent implements OnInit, AfterViewInit {
 
   activateHamburger() {
     this.sidebarService.changeSidebarStatus();
-    this.hamburgerActivated = !this.hamburgerActivated;
+    this.hamburgerActivated = this.sidebarService.getSidebarStatus();    
   }
 
   openLanguageDialog(): void {
