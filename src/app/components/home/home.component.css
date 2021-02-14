@@ -41,22 +41,6 @@ p {
     max-width: auto;
 }
 
-.first-picture {
-    background-image: url("../../../assets/images/samostan.jpg");
-}
-
-.second-picture {
-    background-image: url("../../../assets/images/carousel2.jpg");
-}
-
-.third-picture {
-    background-image: url("../../../assets/images/carousel1.jpg");
-}
-
-.fourth-picture {
-    background-image: url("../../../assets/images/carousel2.jpg");
-}
-
 .picture {
     height: 350px;
     width: 100%;

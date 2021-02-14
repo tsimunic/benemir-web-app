@@ -1,5 +1,6 @@
 import { ChangeDetectorRef, Component, OnInit, ViewChild, } from '@angular/core';
 import { DragScrollComponent } from 'ngx-drag-scroll';
+import 'lazysizes';
 
 @Component({
   selector: 'app-home',
