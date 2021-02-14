@@ -1,10 +1,10 @@
 <app-header #stickyHeaderApp></app-header>
 <div class="base" #belowHeader>
     <div id="mySidenav" class="sidenav">
-        <div class="sidebar-element"><a routerLink="/home"><mat-icon>home</mat-icon>  O nama</a></div>
-        <div class="sidebar-element"><a routerLink="/shop"><mat-icon>shopping_cart</mat-icon>  Web trgovina</a></div>
-        <div class="sidebar-element"><a routerLink="/history"><mat-icon>add_location</mat-icon>  Samostan</a></div>
-        <div class="sidebar-element"><a routerLink="/contact"><mat-icon>phone</mat-icon>  Kontakt</a></div>
+        <div class="sidebar-element"><a routerLink="/home"><mat-icon>home</mat-icon>  {{ 'NAVIGATION.HOME' | translate }}</a></div>
+        <div class="sidebar-element"><a routerLink="/shop"><mat-icon>shopping_cart</mat-icon>  {{ 'NAVIGATION.SHOP' | translate }}</a></div>
+        <div class="sidebar-element"><a routerLink="/history"><mat-icon>add_location</mat-icon>  {{ 'NAVIGATION.HISTORY' | translate }}</a></div>
+        <div class="sidebar-element"><a routerLink="/contact"><mat-icon>phone</mat-icon>  {{ 'NAVIGATION.CONTACT' | translate }}</a></div>
     </div>
     <div class="content" id="main">
         <div class="left-column"></div>

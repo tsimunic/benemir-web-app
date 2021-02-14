@@ -1,7 +1,7 @@
 {
     "NAVIGATION": {
         "HOME": "O nama",
-        "SHOP": "web trgovina",
+        "SHOP": "Web trgovina",
         "HISTORY": "Samostan",
         "CONTACT": "Kontakt"
     },
@@ -18,8 +18,8 @@
     },
     "SHOP": {
         "SHOP_TITLE": "Web trgovina - u izradi",
-        "SHOP_TEXT_DOWNLOAD": "Preuzmite katalog proizvoda ",
-        "SHOP_TEXT": "i kontaktirajte nas na adresi prodaja@benemir.com"
+        "SHOP_TEXT_DOWNLOAD": "Preuzmite katalog proizvoda",
+        "SHOP_TEXT": " i kontaktirajte nas na adresi prodaja@benemir.com"
     },
     "HISTORY": {
         "HISTORY_TITLE": "Samostan Benediktinki Sv. Andrije na Rabu",
