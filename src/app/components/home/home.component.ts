@@ -9,7 +9,7 @@ import 'lazysizes';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private changeDetectorRef: ChangeDetectorRef) { }
 
 
   @ViewChild('nav', { read: DragScrollComponent }) ds: DragScrollComponent;
@@ -38,7 +38,7 @@ export class HomeComponent implements OnInit {
     }, 0);
     setTimeout(() => {
       this.torta.moveTo(0);
-    }, 0);
+    }, 0);    
   }
 
 

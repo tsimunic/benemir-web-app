@@ -54,7 +54,7 @@ export class ContactComponent implements OnInit {
   
     // XYZ
     this.xyzSource = new XyzSource({
-      url: 'http://tile.osm.org/{z}/{x}/{y}.png'
+      url: 'https://tile.osm.org/{z}/{x}/{y}.png'
     });
 
     this.tileLayer = new TileLayer({
