@@ -1,11 +1,16 @@
 {
     "NAVIGATION": {
-        "HOME": "O nama",
+        "HOME": "Početna",
+        "ABOUT": "O nama",
         "SHOP": "Web trgovina",
         "HISTORY": "Samostan",
         "CONTACT": "Kontakt"
     },
     "HOME": {
+        "TITLE": "Početna",
+        "WELCOME": "Dobrodošli"
+    },
+    "ABOUT": {
         "ABOUT_TITLE": "O nama",
         "ABOUT_TEXT_1": "BENEMIR d.o.o. je tvrtka registrirana za proizvodnju, trgovinu i usluge. Preuzima nasljeđe, iskustvo i recepture tisućljetnog Samostana Benediktinki sv. Andrije na Rabu u proizvodnji originalnih i autohtonih proizvoda kao što su rapska torta, tinkture, masti, likeri, marmelade.",
         "ABOUT_TEXT_2": "Osnovni cilj naše djelatnosti je da se u proizvodnji finalnih proizvoda koriste lokalno ekološki proizvedene sirovine.",

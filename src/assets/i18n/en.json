@@ -1,11 +1,16 @@
 {
     "NAVIGATION": {
-        "HOME": "About us",
+        "HOME": "Home",
+        "ABOUT": "About us",
         "SHOP": "Web shop ",
         "HISTORY": "Monastery",
         "CONTACT": "Contact "
     },
     "HOME": {
+        "TITLE": "Home",
+        "WELCOME": "Welcome"
+    },
+    "ABOUT": {
         "ABOUT_TITLE": "About us",
         "ABOUT_TEXT_1": "BENEMIR d.o.o. is a company with activities in the field of production, commerce and services. The company treasures the heritage, experience and recipes of the millennial Benedictine Monastery of St. Andrew on Rab, with the production of original and indigenous products, such as Rab cake, tinctures, ointments, liqueurs, jams",
         "ABOUT_TEXT_2": "The main goal of our activity is to use local ecologically produced raw materials in the production of final products.",

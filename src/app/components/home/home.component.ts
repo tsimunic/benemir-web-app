@@ -12,42 +12,25 @@ export class HomeComponent implements OnInit {
   constructor(private changeDetectorRef: ChangeDetectorRef) { }
 
 
-  @ViewChild('nav', { read: DragScrollComponent }) ds: DragScrollComponent;
-  @ViewChild('torta', { read: DragScrollComponent }) torta: DragScrollComponent;
+  @ViewChild('products', { read: DragScrollComponent }) products: DragScrollComponent;
 
   moveLeft() {
-    this.ds.moveLeft();
+    this.products.moveLeft();
   }
 
   moveRight() {
-    this.ds.moveRight();
-  }
-
-  moveLeftTorta() {
-    this.torta.moveLeft();
-  }
-
-  moveRightTorta() {
-    this.torta.moveRight();
+    this.products.moveRight();
   }
 
   ngAfterViewInit() {
     // Starting ngx-drag-scroll from specified index(3)
     setTimeout(() => {
-      this.ds.moveTo(0);
-    }, 0);
-    setTimeout(() => {
-      this.torta.moveTo(0);
-    }, 0);    
+      this.products.moveTo(0);
+    }, 0); 
   }
-
-
-
-
 
   ngOnInit() {
 
   }
-
-
+  
 }

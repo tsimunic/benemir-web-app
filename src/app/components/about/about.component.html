@@ -1,0 +1,97 @@
+<div class="content">
+    <div style="margin-bottom: 15px;">
+        <mat-card>
+            <h1 class="main-title">
+                {{ 'ABOUT.ABOUT_TITLE' | translate }}
+            </h1>
+            <p>{{ 'ABOUT.ABOUT_TEXT_1' | translate }}</p>
+            <p>{{ 'ABOUT.ABOUT_TEXT_2' | translate }}</p>
+
+        </mat-card>
+    </div>
+    <div class="carousel-container">
+        <drag-scroll #nav scrollbar-hidden="true">  
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/6-min_opt.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/2-min_opt.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/8-min_opt.jpg" />
+        
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/1-min_opt.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/4-min_opt.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/7-min_opt.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/5-min_opt.jpg" />
+        </drag-scroll>
+        <div style="min-height: 50px;">
+            <button mat-button (click)="moveLeft()">
+                <mat-icon>keyboard_arrow_left</mat-icon>
+            </button>
+            <button mat-button (click)="moveRight()">
+                <mat-icon>keyboard_arrow_right</mat-icon>
+            </button>
+        </div>
+    </div>
+    <mat-card>
+        <div class="content-row">
+            <div class="row-text">
+                <h1 class="main-title">
+                    {{ 'ABOUT.RAPSKA_TORTA_TITLE' | translate }}
+                </h1>
+                <p>{{ 'ABOUT.RAPSKA_TORTA_TEXT' | translate }}</p>
+            </div>
+            <div class="row-picture picture right">
+                <img class="lazyload picture" data-src="../../../assets/images/home/1-min_opt.jpg" alt="Benemir proizvodi">
+            </div>
+        </div>
+    </mat-card>
+
+    <div class="carousel-container" style="margin-top: 10px;">
+        <drag-scroll #torta scrollbar-hidden="true">
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/1-min_opt.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/2-min_opt.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/3-min_opt.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/4-min_opt.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/5-min_opt.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/6-min_opt.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/7-min_opt.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/8-min_opt.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/9-min_opt.jpg" />
+        </drag-scroll>
+        <div style="min-height: 50px;">
+            <button mat-button (click)="moveLeftTorta()">
+                <mat-icon>keyboard_arrow_left</mat-icon>
+            </button>
+            <button mat-button (click)="moveRightTorta()">
+                <mat-icon>keyboard_arrow_right</mat-icon>
+            </button>
+        </div>
+    </div>
+
+
+    <mat-card>
+        <div class="content-row">
+
+            <div class="row-text">
+                <h1 class="main-title">
+                    {{ 'ABOUT.PRODUCTS_TITLE' | translate }}
+                </h1>
+                <p>{{ 'ABOUT.PRODUCTS_TEXT' | translate }}</p>
+            </div>
+            <div class="row-picture picture right">
+                <img class="lazyload picture" data-src="../../../assets/images/home/2-min_opt.jpg" alt="Benemir plodovi">
+            </div>
+        </div>
+
+        <div class="content-row">
+            <div class=" row-picture picture left">
+                <img class="lazyload picture" data-src="../../../assets/images/home/3-min_opt.jpg" alt="Čipka Rab">
+            </div>
+            <div class="row-text">
+                <h1 class="main-title">
+                    {{ 'ABOUT.HANDWORK_TITLE' | translate }}
+                </h1>
+                <p>{{ 'ABOUT.HANDWORK_TEXT' | translate }}</p>
+            </div>
+        </div>
+
+
+    </mat-card>
+</div>

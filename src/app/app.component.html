@@ -2,6 +2,7 @@
 <div class="base" #belowHeader>
     <div id="mySidenav" class="sidenav">
         <div class="sidebar-element"><a (click)="closeSidebarOnNavToCurrent('/home')" routerLink="/home"><mat-icon>home</mat-icon>  {{ 'NAVIGATION.HOME' | translate }}</a></div>
+        <div class="sidebar-element"><a (click)="closeSidebarOnNavToCurrent('/about')" routerLink="/about"><mat-icon>info</mat-icon>  {{ 'NAVIGATION.ABOUT' | translate }}</a></div>
         <div class="sidebar-element"><a (click)="closeSidebarOnNavToCurrent('/shop')" routerLink="/shop"><mat-icon>shopping_cart</mat-icon>  {{ 'NAVIGATION.SHOP' | translate }}</a></div>
         <div class="sidebar-element"><a (click)="closeSidebarOnNavToCurrent('/history')" routerLink="/history"><mat-icon>add_location</mat-icon>  {{ 'NAVIGATION.HISTORY' | translate }}</a></div>
         <div class="sidebar-element"><a (click)="closeSidebarOnNavToCurrent('/contact')" routerLink="/contact"><mat-icon>phone</mat-icon>  {{ 'NAVIGATION.CONTACT' | translate }}</a></div>

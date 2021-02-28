@@ -6,10 +6,12 @@ import { HistoryComponent } from './components/history/history.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TermsComponent } from './components/terms/terms.component';
 import { PrivacyComponent } from './components/privacy/privacy.component';
+import { AboutComponent } from './components/about/about.component';
 
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
+  { path: 'about', component: AboutComponent},
   { path: 'shop', component: ShopComponent},
   { path: 'history', component: HistoryComponent},
   { path: 'contact', component: ContactComponent},

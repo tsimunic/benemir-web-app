@@ -1,11 +1,16 @@
 {
     "NAVIGATION": {
-        "HOME": "Über uns",
+        "HOME": "Homepage",
+        "ABOUT": "Über uns",
         "SHOP": "Onlineshop",
         "HISTORY": "Kloster",
         "CONTACT": "Kontakt"
     },
     "HOME": {
+        "TITLE": "Homepage",
+        "WELCOME": "Willkommen"
+    },
+    "ABOUT": {
         "ABOUT_TITLE": "Über uns",
         "ABOUT_TEXT_1": "BENEMIR d.o.o. ist ein Unternehmen (GmbH) im Bereich der Herstellung, des Handels und  der Dienstleistungen. Es übernimmt bei der Herstellung originaler und autochthoner Produkte wie beispielsweise der Rab-Torte, Tinkturen, Salben, Liköre und Marmeladen das Erbe, die Erfahrung und Rezepturen des tausendjährigen Benediktinerinnenklosters des hl. Andreas in Rab.",
         "ABOUT_TEXT_2": "Das grundlegende Ziel unserer Tätigkeit ist es, bei der Produktion der Endprodukte lokale, ökologisch hergestellte Rohstoffe zu verwenden.",

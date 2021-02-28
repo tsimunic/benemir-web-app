@@ -1,16 +1,11 @@
 <div class="content">
-    <div style="margin-bottom: 15px;">
-        <mat-card>
-            <h1 class="main-title">
-                {{ 'HOME.ABOUT_TITLE' | translate }}
-            </h1>
-            <p>{{ 'HOME.ABOUT_TEXT_1' | translate }}</p>
-            <p>{{ 'HOME.ABOUT_TEXT_2' | translate }}</p>
-
-        </mat-card>
+    <div class="welcome-image">
+        <!-- <img class="lazyload total-cover" src="../../../assets/images/welcome/3.jpg"> -->
+        <h1 class="main-title">Dobrodošli</h1>
+        <h3 class="additional-info">Scrollaj za više informacija</h3>
     </div>
     <div class="carousel-container">
-        <drag-scroll #nav scrollbar-hidden="true">  
+        <drag-scroll #products scrollbar-hidden="true">  
             <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/6-min_opt.jpg" />
             <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/2-min_opt.jpg" />
             <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/8-min_opt.jpg" />
@@ -29,69 +24,5 @@
             </button>
         </div>
     </div>
-    <mat-card>
-        <div class="content-row">
-            <div class="row-text">
-                <h1 class="main-title">
-                    {{ 'HOME.RAPSKA_TORTA_TITLE' | translate }}
-                </h1>
-                <p>{{ 'HOME.RAPSKA_TORTA_TEXT' | translate }}</p>
-            </div>
-            <div class="row-picture picture right">
-                <img class="lazyload picture" data-src="../../../assets/images/home/1-min_opt.jpg" alt="Benemir proizvodi">
-            </div>
-        </div>
-    </mat-card>
 
-    <div class="carousel-container" style="margin-top: 10px;">
-        <drag-scroll #torta scrollbar-hidden="true">
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/1-min_opt.jpg" />
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/2-min_opt.jpg" />
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/3-min_opt.jpg" />
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/4-min_opt.jpg" />
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/5-min_opt.jpg" />
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/6-min_opt.jpg" />
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/7-min_opt.jpg" />
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/8-min_opt.jpg" />
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/torta/9-min_opt.jpg" />
-        </drag-scroll>
-        <div style="min-height: 50px;">
-            <button mat-button (click)="moveLeftTorta()">
-                <mat-icon>keyboard_arrow_left</mat-icon>
-            </button>
-            <button mat-button (click)="moveRightTorta()">
-                <mat-icon>keyboard_arrow_right</mat-icon>
-            </button>
-        </div>
-    </div>
-
-
-    <mat-card>
-        <div class="content-row">
-
-            <div class="row-text">
-                <h1 class="main-title">
-                    {{ 'HOME.PRODUCTS_TITLE' | translate }}
-                </h1>
-                <p>{{ 'HOME.PRODUCTS_TEXT' | translate }}</p>
-            </div>
-            <div class="row-picture picture right">
-                <img class="lazyload picture" data-src="../../../assets/images/home/2-min_opt.jpg" alt="Benemir plodovi">
-            </div>
-        </div>
-
-        <div class="content-row">
-            <div class=" row-picture picture left">
-                <img class="lazyload picture" data-src="../../../assets/images/home/3-min_opt.jpg" alt="Čipka Rab">
-            </div>
-            <div class="row-text">
-                <h1 class="main-title">
-                    {{ 'HOME.HANDWORK_TITLE' | translate }}
-                </h1>
-                <p>{{ 'HOME.HANDWORK_TEXT' | translate }}</p>
-            </div>
-        </div>
-
-
-    </mat-card>
 </div>

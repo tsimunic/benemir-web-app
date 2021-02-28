@@ -17,34 +17,6 @@ p {
     margin: 10px;
 }
 
-.main-title {
-    color: white;
-    padding: 20px;
-    justify-self: center;
-    align-self: end;
-}
-
-.additional-info {
-    color: white;
-}
-
-.welcome-image {
-    display: grid;
-    grid-template-rows: 1fr 3fr;
-    width: 70vw;
-    max-width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.24)), url('../../../assets/images/welcome/3.jpg');
-    background-color: #cccccc;
-    background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: cover;
-    /* Resize the background image to cover the entire container */
-    min-height: 600px;
-    height: auto;
-}
-
 .content {
     grid-row: 1;
     justify-self: center;
@@ -147,9 +119,6 @@ img {
         justify-self: center;
         height: 250px;
     }
-    .welcome-image {
-        width: 100vw;
-    }
 }
 
 @media screen and (max-width: 821px) {
@@ -163,9 +132,7 @@ img {
     img {
         height: 300px;
     }
-    .welcome-image {
-        width: 100vw;
-    }
+        
 }
 
 @media screen and (max-width: 650px) {
@@ -179,9 +146,8 @@ img {
     img {
         height: 250px;
     }
-    .welcome-image {
-        width: 100vw;
-    }
 }
 
-@media screen and (max-width: 550px) {}
+@media screen and (max-width: 550px) {
+
+}
