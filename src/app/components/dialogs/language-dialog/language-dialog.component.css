@@ -17,6 +17,10 @@
     cursor: pointer;
 }
 
+.flag-icon-gb {
+    margin-right: 25px;
+}
+
 ul {
     list-style-type: none;
 }

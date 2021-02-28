@@ -1,0 +1,110 @@
+{
+    "NAVIGATION": {
+        "HOME": "About us",
+        "SHOP": "Web shop ",
+        "HISTORY": "Monastery",
+        "CONTACT": "Contact "
+    },
+    "HOME": {
+        "ABOUT_TITLE": "About us",
+        "ABOUT_TEXT_1": "BENEMIR d.o.o. is a company with activities in the field of production, commerce and services. The company treasures the heritage, experience and recipes of the millennial Benedictine Monastery of St. Andrew on Rab, with the production of original and indigenous products, such as Rab cake, tinctures, ointments, liqueurs, jams",
+        "ABOUT_TEXT_2": "The main goal of our activity is to use local ecologically produced raw materials in the production of final products.",
+        "RAPSKA_TORTA_TITLE": "The Rab cake",
+        "RAPSKA_TORTA_TEXT": " The Rab cake also originates from the Benedictine monastery in Rab. The cake, which, according to oral tradition, was made by nuns during the visit of Pope Alexander III to Rab in 1177; rewritten for centuries and preserved in its originality, the recipe has survived to our days",
+        "PRODUCTS_TITLE": "Local products",
+        "PRODUCTS_TEXT": "We are restoring one neglected agricultural land on the Kalifront Peninsula and planting orchards. We start agricultural ecological and sustainable production of fruits and medicinal plants. We plan to produce raw materials used for Rab cake (almonds, oranges, lemons), tinctures, ointments (herbs) and liqueurs.",
+
+        "HANDWORK_TITLE": "Handcraft",
+        "HANDWORK_TEXT": "What makes us recognizable on the market is the long-term knowledge and work experience of our experts and associates in creating and making various products. Our philosophy is based on adding value through the development of original and healthy solutions in response to the challenges faced by our customers."
+    },
+    "SHOP": {
+        "SHOP_TITLE": "Web store – in progress",
+        "SHOP_TEXT_DOWNLOAD": "Download the product catalog ",
+        "SHOP_TEXT": "and contact us for information and order of our products at: prodaja@benemir.com"
+},
+    "HISTORY": {
+        "HISTORY_TITLE": "Benedictine Monastery of St. Andrew on Rab",
+        "HISTORY_TEXT_1": "The Benedictine monastery with the church of St. Andrew, founded during the 11th century, rises directly from the cliffs along the coast of the bay of St. Euphemia. The monastery was founded for girls from noble Rab families. Some historians state that it was in 1123, but without documented support. The first written mention that testifies to the ancient history of this monastery is the inscription on the bell tower where the nun Ivana is mentioned by name. The simple Romanesque bell tower was erected in 1181 and is the oldest of the four bell towers in Rab.",
+
+        "HISTORY_TEXT_2": "The monastery church of St. Andrew is a Proto-Romanesque three-nave basilica built in the 11th century by Bishop Madius, whose name is engraved on the inscription at the entrance threshold to the church. It was renovated in the 14th century and thoroughly remodeled in the middle of the 15th century. In the 18th century, the church received Baroque elements - the Baroque wooden altar dates from that time, the work of Venetian masters with the altarpiece of the painter Grapinelli. Wooden figures on the side represent St. Benedict and the Apostle St. Andrew.",
+
+        "HISTORY_TEXT_3": "To the right of the main altar in the nave of the church is the altar of the Mother of God, who has been worshiped as the Miraculous Lady of Rab since the 16th century in the monastery and on the whole island. The Cretan-Byzantine icon of the Virgin with Christ in her arms dates from the first half of the 16th century. The silver and gilded frame of the icon is a valuable work of Venetian goldsmithing from the 18th century. At the entrance to the monastery chapel is a valuable Cretan-Venetian icon of the mourning of Christ, tempera on wood from the second half of the 16th century. In the monastery library, in addition to modern spiritual literature, valuable old writings, documents and parchments are kept.",
+
+        "HISTORY_TEXT_4": "Nuns of St. Andrews are faithful to their mission of prayer and work. Prayer nurtured and carefully prepared forms the focus of their daily lives, enabling others to be partakers of their prayer and contemplation. In an atmosphere of monastic peace, they nurture monastic hospitality.",
+
+        "HISTORY_TEXT_5": "As almost a thousand years ago, so today the nuns of the Rab monastery as guardians of the city walls, intercede in their prayers and work for the needs of Rab and the world, they are praying Lord, through the intercession of St. Benedict for blessing for all people."
+    },
+    "CONTACT": {
+        "CONTACT_TITLE": "Contact",
+        "COMPANY_NAME": "Benemir d.o.o.",
+        "ADDRESS": "Ivana Rabljanina 6, 51280 Rab",
+        "PHONE_1": "+385 5155 0183",
+        "PHONE_2": "+385 99 8244 254",
+        "EMAIL": "prodaja@benemir.com",
+        "SUMMER_TITLE": "Summer opening time",
+        "SUMMER_DATE": "01.06. - 30.09.",
+        "SUMMER_DAYS_1": "Monday – Thursday: 09-14 & 18-20",
+        "SUMMER_DAYS_2": "Friday, Saturday: 09-14",
+
+        "WINTER_TITLE": "Winter opening time",
+        "WINTER_DATE": "01.10. - 31.05.",
+        "WINTER_DAYS": "Monday - Saturday",
+        "WINTER_TIME": "09:15-12:30",
+
+        "COMPANY_DESCRIPTION": "Company BENEMIR d.o.o. for production, commerce and services registered at the Commercial Court in Rijeka – in the registration file ",
+        "MBS": "Submission number of the subject (MBS): 040406367",
+        "OIB": "Personal identification number (OIB): 30551645134",
+        "EUID": "EUID: HRSR 040406367",
+        "DZS_MBPS": "Central Institute For Statistics – Registration number of business operator: 5143985",
+        "DJELATNOST": "Activity: Other retail trade of new gods in specialized shops ",
+        "OZNAKA_RAZREDA": "Class designation: 47.78",
+        "ACCOUNT": "Business account: PBZ: IBAN HR2923400091111028298"
+    },
+    "TERMS": {
+        "TERMS_TITLE": "Terms of use",
+        "TERMS_TEXT_1": "Benemir d.o.o.  Publisher is the Internet site www.benemir.com. By using the website, it is considered that you, as a user, are fully acquainted and agreed with the stated Terms of Use and Terms of Sale..",
+        "TERMS_TEXT_2": "If you do not agree with the terms and do not accept them, please do not use this internet site. Any further use of these internet sites after getting acquainted with the Terms of Use, users are deemed to agree to use the terms and conditions set forth herein and agree to use the website in accordance with these terms. The user agrees that the use of Internet sites is solely his responsibility. Benemir d.o.o. cannot in any way guarantee that the use of this website will not be interrupted or error free, nor can it guarantee the consequences of using this website or the accuracy, reliability or content of any information, services or goods provided through this website.",
+ "TERMS_TEXT_3": "The user agrees and confirms that Benemir d.o.o. is not responsible for the inappropriate or illegal behavior of other users or third parties and that the risk of possible damages resulting from the above is entirely on him. The disclaimer applies to all damages caused by any error, deletion, interruption, computer virus, malfunction, delay in progress or transmission, interruption of the communication line, theft, termination of contract, destruction or unauthorized access, alteration or misuse of records, inappropriate behavior, negligence or any other act.",
+        "TERMS_TEXT_4": "Benemir d.o.o. or another natural or legal person involved in the creation, production and distribution of this website in not responsible for any damage resulting from the use or inability to use this website.",
+        "TERMS_TEXT_5": "Any damage to the user´s equipment resulting from the use of this website is not the responsibility of Benemir d.o.o.. Benemir d.o.o. reserves the right at any time, and without prior notice, if it deems necessary, to terminate or amend any of the Terms of Use of the Website or the Terms of Sale set forth herein. These subject changes may among others include the introduction of certain fees or charges, so we advise users to re-read from time to time the information contained in the Terms of Use and in the Terms of Sale, in order to be informed of possible changes.",
+"TERMS_TEXT_6": "Benemir d.o.o. also reserves the right to modify or discontinue any segment of the business activity any time, including and without limitation the availability of time, content and equipment required to access or to use the website.",
+        "TERMS_TEXT_7": "Any possible change or erasure of terms of use is valid towards the third part immediately after the publication on the website. Any use, other that acquaintance with changes to the terms, of the respective websites by the end-user after such change will be understood as acceptance of these changes.",
+        "TERMS_TEXT_8": "Users must not post, transmit or make available in any way through this website any material whose content infringes the rights of others in any way, for example, content that is offensive, defamatory, violates or threatens privacy, etc., as well as materials of illegal content and form. Benemir. d.o.o. reserves the discretion to assess for itself whether there has been a breach of obligations by the user. The user may not without prior written consent of Benemir d.o.o. publish, transmit or in any way make available content containing an advertisement, commercial or offer of anyone’s products and services, as well as religious, political and non-commercial advertising, and in particular must not recruit other users of the website to become users of another service that is direct or indirect competition. The materials on the website are owned by Benemir d.o.o. and as such are protected by the law, or are used in accordance with the approval of the copyright holder and the trademark holder, as well as in accordance with other necessary approvals. Benemir d.o.o. is also the copyright holder of the entire conceptual content of the website which is necessary for the proper and smooth functioning.",
+        "TERMS_TEXT_9": "The illustrations published on the site are copyrighted and the property of the company Benemir d.o.o. or free to use.",
+        "TERMS_TEXT_10": "Any copying, transmission, distribution, linking, publication or modification in any way of this website without the written permission of Benemir d.o.o. is prohibited. Any violation of the aforementioned prohibition can result in a violation of author's rights, trademark rights or any other rights, which can lead to undesirable consequences such as the initiation of various types of legal proceedings, and in particular can lead to criminal prosecution. The user may not change, publish, transfer, participate in the transfer or sale, create modifications or exploit in any way any content on the website, in whole or in part.",
+        "TERMS_TEXT_11": "Copying, redistribution, retransmission, output or commercial exploitation of acquired materials is also prohibited. The user agrees that he will not be held liable and will indemnify Benemir d.o.o. of all claims for damage or costs.",
+
+        "TERMS_TEXT_12": "Benemir d.o.o. is not responsible for any possible loss or damage caused by the user relying on the information obtained on the website. Benemir d.o.o. is expressly excluded in every sense from the content of the material on the websites of third parties, which could be accessed from the website. In the event that any of the items of these Terms of Use are void, such nullity shall not affect the validity of any other provision of these Terms, and the remaining portions of these Terms will remain in full force and effect and the void provision shall be replaced by a valid provision corresponding to a provision which is void. Failure by either party to exercise its rights under these Terms of Use shall not be deemed a waiver or loss of those rights, or any other rights set forth herein.",
+        "TERMS_TEXT_13": "Persons under the age of 14 are prohibited from using the website. Any disputes or requests arising from or related to these conditions or related to their implementation fall within the jurisdiction of the court in Zagreb and will be resolved in accordance with the regulations of the Republic of Croatia.",
+        "TERMS_TEXT_14": "By visiting the site, it is assumed that the user has read these terms of use in full."
+    },
+    "PRIVACY": {
+        "PRIVACY_TITLE": "Privacy policy",
+
+        "PRIVACY_SUBTITLE_1": "Data protection and collection privacy statement and their use. ",
+        "PRIVACY_SUBTITLE_2": "The type of personal data collected through the website",
+        "PRIVACY_SUBTITLE_3": "The manner in which Benemir d.o.o. uses the user's personal information",
+        "PRIVACY_SUBTITLE_4": "The manner in which Benemir d.o.o. uses my personal information",
+        "PRIVACY_SUBTITLE_5": "Does Benemir d.o.o. share my personal information?",
+        "PRIVACY_SUBTITLE_6": "My rights regarding the management of my personal data",
+        "PRIVACY_TEXT_1": "The privacy of visitors and users is especially important to us. All personal information you leave on our site is securely stored, and we only collect data permitted by the Personal Data Protection Law and the Electronic Communications Law.",
+
+        "PRIVACY_TEXT_2": "Benemir d.o.o. undertakes to provide protection of personal data of users, by collecting only the necessary, basic data on users that are necessary to fulfill our obligations; informs users about the way of using the collected data, regularly gives users the opportunity to choose the use of their data, including the ability to decide whether or not to remove their name from the lists used for marketing. All user data is strictly kept and is available only to employees who need this data to do their job. All employees of Benemir d.o.o. and business partners are responsible for adhering to the principles of privacy.",
+
+        "PRIVACY_TEXT_3": "Benemir d.o.o. may collect the following personal information of the website user via appropriate form: name, e-mail address, postal address, telephone number, date of birth, gender, when the user visits the website, registers, contacts support or participates in promotions or surveys of the company Benemir d.o.o.. The mentioned information will in no case be collected through channels not previously listed, even when they are available on the Internet (email, chat, Facebook, etc.). If the above information is received in one of the ways specified, Benemir d.o.o. do not use them for any purpose detailed in the section below. In addition, Benemir d.o.o. cannot be held responsible for the security of the data mentioned, nor can their confidentiality be guaranteed.",
+
+        "PRIVACY_TEXT_4": "The data that are requested via the website are necessary in all cases to provide optimal services to the user. If the user does not provide the requested data, Benemir d.o.o. do not guarantee that the information and services provided will fully satisfy the needs of the user.",
+
+
+        "PRIVACY_TEXT_5": "Benemir d.o.o. will process the user data for the following purposes: Sending commercial information via E-Post to inform you about new products, special offers and news related to the website and / or the company Benemir d.o.o. general information, with newsletters. The mentioned commercial information refers to the products or services offered by Benemir d.o.o. as well as any associates or partners with whom the company has entered into a sales promotion agreement among its customers. Associates or partners will in no case have access to the user's personal data. In all cases, commercial notices will be sent by Benemir d.o.o. and they will relate to products and services within the business sector of the enterprise. Users can cancel all subscribed services by clicking on the Subscriptions section.",
+
+        "PRIVACY_TEXT_6": "The website uses data protection technologies such as firewalls, access verification procedures and cryptographic mechanisms to prevent all forms of unauthorized access to data and to guarantee the confidentiality of data. In order to achieve the mentioned goals, the users accept that Benemir d.o.o. collects data for the purpose of checking access controls.",
+
+
+        "PRIVACY_TEXT_7": "Benemir d.o.o. declares that it has adopted all technical and organizational measures necessary to guarantee the security and integrity of the personal data it processes and to prevent their loss, exchange and / or unauthorized access through third parties.",
+        "PRIVACY_TEXT_8": "Benemir d.o.o. expressly informs and guarantees users that their personal data will in no case be passed on to third parties and that they will require the explicit, informed and clear consent of their owners before forwarding personal data.",
+
+        "PRIVACY_TEXT_9": "Benemir d.o.o. guarantees to users at any time the possibility of exercising their right to access, rectify, revoke or object to the personal data they have provided under the conditions contained in the applicable legislation. Users of the website may exercise the mentioned rights by sending a written request, enclosing a copy of their national identification document, to the address info@benemir.com"
+}    }
+
+

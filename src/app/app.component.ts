@@ -1,7 +1,6 @@
 import { Component, ViewChild, ElementRef, HostListener, OnInit, AfterViewInit } from '@angular/core';
 import { SidebarService } from './services/sidebar.service';
 import {  MatSnackBar,  MatSnackBarHorizontalPosition,  MatSnackBarVerticalPosition} from '@angular/material/snack-bar';
-import {TranslateService} from '@ngx-translate/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -20,11 +19,9 @@ export class AppComponent implements OnInit, AfterViewInit {
   constructor(
     private sidebarService: SidebarService,
     private router: Router,
-    private snackBar: MatSnackBar,
-    translate: TranslateService
+    private snackBar: MatSnackBar
   ) {
-    translate.setDefaultLang('hr');
-    translate.use('hr');
+    
    }
 
   @ViewChild('stickyHeaderApp', { static: false }) stickyHeader: ElementRef;
@@ -32,6 +29,7 @@ export class AppComponent implements OnInit, AfterViewInit {
 
 
   ngOnInit() {
+
     this.sidebarService.currentSidebarStatus.subscribe(status => {
       if (status === true) {
         this.openNav();
@@ -51,15 +49,11 @@ export class AppComponent implements OnInit, AfterViewInit {
     }
     
     /* this.sidebarService.currentBottomHeaderPosition.subscribe(position => {
-      console.log(position.substring(0, position.length - 2));
       if (position === 'auto') {
-        console.log(position);
         document.getElementById('mySidenav').style.top = position;
       } else {
         this.componentTop = this.belowHeader.nativeElement.getBoundingClientRect().top;
-        console.log(this.initialTopPosition, +position.substring(0, position.length - 2), this.componentTop);
         let newSidebarPosition = this.initialTopPosition + +position.substring(0, position.length - 2) - this.componentTop;
-        console.log(newSidebarPosition);
         document.getElementById('mySidenav').style.top = (newSidebarPosition + 'px');
       }
     }); */

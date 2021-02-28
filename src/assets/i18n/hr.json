@@ -7,7 +7,7 @@
     },
     "HOME": {
         "ABOUT_TITLE": "O nama",
-        "ABOUT_TEXT_1": "BENEMIR d.o.o. je tvrtka u području proizvodnje, trgovine i usluga. Preuzima nasljeđe, iskustvo i recepture tisućljetnog Samostana Benediktinki sv. Andrije na Rabu u proizvodnji originalnih i autohtonih proizvoda kao što su rapska torta, tinkture, masti, likeri, marmelade.",
+        "ABOUT_TEXT_1": "BENEMIR d.o.o. je tvrtka registrirana za proizvodnju, trgovinu i usluge. Preuzima nasljeđe, iskustvo i recepture tisućljetnog Samostana Benediktinki sv. Andrije na Rabu u proizvodnji originalnih i autohtonih proizvoda kao što su rapska torta, tinkture, masti, likeri, marmelade.",
         "ABOUT_TEXT_2": "Osnovni cilj naše djelatnosti je da se u proizvodnji finalnih proizvoda koriste lokalno ekološki proizvedene sirovine.",
         "RAPSKA_TORTA_TITLE": "Rapska torta",
         "RAPSKA_TORTA_TEXT": "Iz samostana koludrica benediktinki u Rabu potječe i Rapska torta. Kolač koji su, kako usmena predaju kaže, napravile koludrice prigodom posjeta pape Aleksandra III Rabu, 1177. Stoljećima prepisivan i u svojoj izvornosti čuvan, recept je došao i do naših dana.",
@@ -18,14 +18,14 @@
     },
     "SHOP": {
         "SHOP_TITLE": "Web trgovina - u izradi",
-        "SHOP_TEXT_DOWNLOAD": "Preuzmite katalog proizvoda",
-        "SHOP_TEXT": " i kontaktirajte nas na adresi prodaja@benemir.com"
+        "SHOP_TEXT_DOWNLOAD": "Preuzmite naš katalog proizvoda ",
+        "SHOP_TEXT": "i pošaljite Vaš upit ili narudžbu na elektroničku adresu: prodaja@benemir.com"
     },
     "HISTORY": {
         "HISTORY_TITLE": "Samostan Benediktinki Sv. Andrije na Rabu",
-        "HISTORY_TEXT_1": "Benediktinski samostan sa crkvom svetog Andrije, utemeljen tijekom XI:, stoljeća izdiže se direktno iz litica uz obalu uvale sv. Eufemije. Samostan je bio osnovan za djevojke iz plemićkih rapskih obitelji. Neki povjesničari navode kako je to bilo 1123. godine, ali bez dokumentiranog oslonca. Prvi pak pisani spomen koji nam svjedoči drevnu povijest ovog samostana je natpis na zvoniku gdje je imenom spomenuta opatica Ivana. Jednostavni romanički zvonik podignut je 1181. i najstariji je od četiri rapska zvonika.",
-        "HISTORY_TEXT_2": "Samostanska crkva sv. Andrije je protoromanička trobrodna bazilika sagrađena u 11. st. a dao ju je izgraditi biskup Madius čije je ime uklesano na natpisu ulaznog praga u crkvu. U 14. st. bila je obnovljena a polovicom 15. st. temeljito preinačena. U 18 st. crkva je barokizirana – iz tog doba potječe i barokni drveni oltar, rad venecijanskih majstora sa oltarnom palom slikara Novellia. Drvene figure po strani prikazuju sv.Benedikta i apostola sv.Andriju.",
-        "HISTORY_TEXT_3": "Desno od glavnog oltara u lađi crkve nalazi se oltar Majke Božje koja se od 16. st. u samostanu i na cijelom otoku štuje kao Čudotvorna Gospa Rapska. Kretsko-bizantska ikona Bogorodice s Kristom u naručju iz prve je polovice XVI. stoljeća. Srebreni i pozlaćeni okvir ikone vrijedan je rad mletačkog zlatarstva iz XVIII. stoljeća. Na ulazu u samostansku kapelu nalazi se vrijedna kretsko-mletačka ikona oplakivanja Krista, tempera na drvu iz druge polovice XVI. stoljeća. U samostanskoj biblioteci, osim moderne duhovne literature, čuvaju se i vrijedni stari spisi, dokumenti i pergamene.",
+        "HISTORY_TEXT_1": "Benediktinski samostan sa crkvom svetog Andrije, utemeljen tijekom 11. stoljeća izdiže se direktno iz litica uz obalu uvale sv. Eufemije. Samostan je bio osnovan za djevojke iz plemićkih rapskih obitelji. Neki povjesničari navode kako je to bilo 1123. godine, ali bez dokumentiranog oslonca. Prvi pak pisani spomen koji nam svjedoči drevnu povijest ovog samostana je natpis na zvoniku gdje je imenom spomenuta opatica Ivana. Jednostavni romanički zvonik podignut je 1181. i najstariji je od četiri rapska zvonika.",
+        "HISTORY_TEXT_2": "Samostanska crkva sv. Andrije je protoromanička trobrodna bazilika sagrađena u 11. stoljeću, a dao ju je izgraditi biskup Madius čije je ime uklesano na natpisu ulaznog praga u crkvu. U 14. stoljeću bila je obnovljena, a polovicom 15. stoljeću temeljito preinačena. U 18 st. crkva je barokizirana – iz tog doba potječe i barokni drveni oltar, rad venecijanskih majstora sa oltarnom palom slikara Grapinellia. Drvene figure po strani prikazuju sv.Benedikta i apostola sv.Andriju.",
+        "HISTORY_TEXT_3": "Desno od glavnog oltara u lađi crkve nalazi se oltar Majke Božje koja se od 16. st. u samostanu i na cijelom otoku štuje kao Čudotvorna Gospa Rapska. Kretsko-bizantska ikona Bogorodice s Kristom u naručju iz prve je polovice 16. stoljeća. Srebreni i pozlaćeni okvir ikone vrijedan je rad mletačkog zlatarstva iz 18. stoljeća. Na ulazu u samostansku kapelu nalazi se vrijedna kretsko-mletačka ikona oplakivanja Krista, tempera na drvu iz druge polovice 16. stoljeća. U samostanskoj biblioteci, osim moderne duhovne literature, čuvaju se i vrijedni stari spisi, dokumenti i pergamene.",
         "HISTORY_TEXT_4": "Koludrice sv. Andrije vjerne su svom poslanju molitve i rada. Molitva njegovana i brižno pripremana čini okosnicu njihova svakodnevnog života, omogućavajući i drugima da budu dionicima njihova molitve i sabranosti. U ozračju samostanskog mira, njeguju monaško gostoprimstvo.",
         "HISTORY_TEXT_5": "Kao i prije gotovo tisuću godina tako i danas koludrice rapskog samostana kao čuvarice bedema grada, svojom molitvom i radom zagovaraju za potrebe Raba i svijeta moleći da Gospodin po zagovoru svetog Benedikta na svih izlije svoj blagoslov."
     },

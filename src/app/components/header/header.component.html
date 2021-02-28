@@ -1,23 +1,34 @@
 <div class="header-main" #stickyHeader>
-    <div class="header-main-left">
+    <div class="header-main-left" id="top">
     </div>
     <div class="header-main-mid">
         <div class="header-main-top">
-            <div class="main-title">Benemir</div>
+            <div class="main-title" (click)="routeHome()">Benemir</div>
             <div class="header-top-utility">
-                <div *ngIf="currentLanguage === 'gb'" class="flag flag-icon flag-icon-gb" (click)="openLanguageDialog()"></div>
-                <div *ngIf="currentLanguage === 'hr'" class="flag flag-icon flag-icon-hr" (click)="openLanguageDialog()"></div>
-                <div *ngIf="currentLanguage === 'de'" class="flag flag-icon flag-icon-de" (click)="openLanguageDialog()"></div>
-                <div *ngIf="currentLanguage === 'it'" class="flag flag-icon flag-icon-it" (click)="openLanguageDialog()"></div>
-                <div *ngIf="currentLanguage === 'fr'" class="flag flag-icon flag-icon-fr" (click)="openLanguageDialog()"></div>
+                <div *ngIf="currentLanguage === 'en'" class="flag flag-icon flag-icon-gb"
+                    (click)="openLanguageDialog()"></div>
+                <div *ngIf="currentLanguage === 'si'" class="flag flag-icon flag-icon-si"
+                    (click)="openLanguageDialog()"></div>
+                <div *ngIf="currentLanguage === 'hr'" class="flag flag-icon flag-icon-hr"
+                    (click)="openLanguageDialog()"></div>
+                <div *ngIf="currentLanguage === 'de'" class="flag flag-icon flag-icon-de"
+                    (click)="openLanguageDialog()"></div>
+                <div *ngIf="currentLanguage === 'it'" class="flag flag-icon flag-icon-it"
+                    (click)="openLanguageDialog()"></div>
+                <div *ngIf="currentLanguage === 'fr'" class="flag flag-icon flag-icon-fr"
+                    (click)="openLanguageDialog()"></div>
             </div>
         </div>
         <div class="navigation-header">
             <div class="nav-items">
-                <div class="nav-item"><button mat-button routerLink="/home">{{ 'NAVIGATION.HOME' | translate }}</button></div>
-                <div class="nav-item"><button mat-button routerLink="/shop">{{ 'NAVIGATION.SHOP' | translate }}</button></div>
-                <div class="nav-item"><button mat-button routerLink="/history">{{ 'NAVIGATION.HISTORY' | translate }}</button></div>
-                <div class="nav-item"><button mat-button routerLink="/contact">{{ 'NAVIGATION.CONTACT' | translate }}</button></div>
+                <div class="nav-item"><button mat-button routerLink="/home">{{ 'NAVIGATION.HOME' | translate }}</button>
+                </div>
+                <div class="nav-item"><button mat-button routerLink="/shop">{{ 'NAVIGATION.SHOP' | translate }}</button>
+                </div>
+                <div class="nav-item"><button mat-button routerLink="/history">{{ 'NAVIGATION.HISTORY' | translate
+                        }}</button></div>
+                <div class="nav-item"><button mat-button routerLink="/contact">{{ 'NAVIGATION.CONTACT' | translate
+                        }}</button></div>
             </div>
             <div class="dropdown">
                 <div class="menu-container">
