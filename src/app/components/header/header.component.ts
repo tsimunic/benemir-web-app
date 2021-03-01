@@ -89,7 +89,13 @@ export class HeaderComponent implements OnInit, AfterViewInit {
   }
 
   async openLanguageDialog() {
-    window.scrollTo(0, 0);
+
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'auto'
+    });
+
     document.body.style.overflow = 'hidden';
     const dialogRef = this.dialog.open(LanguageDialogComponent, {
       width: '250px',

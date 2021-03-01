@@ -11,8 +11,17 @@ export class HomeComponent implements OnInit {
 
   constructor(private changeDetectorRef: ChangeDetectorRef) { }
 
+  buttonColor = 'transparent';
 
   @ViewChild('products', { read: DragScrollComponent }) products: DragScrollComponent;
+
+  scrollToContent() {
+    window.scroll({
+      top: 800,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
 
   moveLeft() {
     this.products.moveLeft();
