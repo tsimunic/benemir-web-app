@@ -1,6 +1,8 @@
 import { ChangeDetectorRef, Component, OnInit, ViewChild, } from '@angular/core';
 import { DragScrollComponent } from 'ngx-drag-scroll';
 import 'lazysizes';
+import { SeoService } from 'src/app/services/seo.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-about',
@@ -9,7 +11,10 @@ import 'lazysizes';
 })
 export class AboutComponent implements OnInit {
 
-  constructor(private changeDetectorRef: ChangeDetectorRef) { }
+  constructor(
+    private seoService: SeoService,
+    private route: ActivatedRoute
+  ) { }
 
 
   @ViewChild('nav', { read: DragScrollComponent }) ds: DragScrollComponent;
@@ -38,10 +43,12 @@ export class AboutComponent implements OnInit {
     }, 0);
     setTimeout(() => {
       this.torta.moveTo(0);
-    }, 0);    
+    }, 0);
   }
   ngOnInit() {
-
+    const { meta } = this.route.snapshot.data;
+    this.seoService.updateTitle(meta.title);
+    this.seoService.updateDescription(meta.description);
   }
 
 

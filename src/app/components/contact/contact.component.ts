@@ -12,6 +12,8 @@ import Point from 'ol/geom/Point';
 import VectorSource from 'ol/source/Vector';
 import XyzSource from 'ol/source/XYZ';
 import { style } from '@angular/animations';
+import { SeoService } from 'src/app/services/seo.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-contact',
@@ -20,7 +22,10 @@ import { style } from '@angular/animations';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private seoService: SeoService,
+    private route: ActivatedRoute
+  ) { }
 
   map: Map;
   vectorSource: VectorSource;
@@ -32,6 +37,9 @@ export class ContactComponent implements OnInit {
   ;
 
   ngOnInit() {
+    const { meta } = this.route.snapshot.data;
+    this.seoService.updateTitle(meta.title);
+    this.seoService.updateDescription(meta.description);
     var iconStyle = new Style({
       image: new Icon({
         anchor: [14.761123428425517, 44.754862592821354],
@@ -51,7 +59,7 @@ export class ContactComponent implements OnInit {
     this.vectorLayer = new VectorLayer({
       source: this.vectorSource
     });
-  
+
     // XYZ
     this.xyzSource = new XyzSource({
       url: 'https://tile.osm.org/{z}/{x}/{y}.png'

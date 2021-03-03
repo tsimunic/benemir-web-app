@@ -7,18 +7,43 @@ import { ContactComponent } from './components/contact/contact.component';
 import { TermsComponent } from './components/terms/terms.component';
 import { PrivacyComponent } from './components/privacy/privacy.component';
 import { AboutComponent } from './components/about/about.component';
+import { pageMetadata } from 'src/assets/page_metadata_hr';
 
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent},
-  { path: 'about', component: AboutComponent},
-  { path: 'shop', component: ShopComponent},
-  { path: 'history', component: HistoryComponent},
-  { path: 'contact', component: ContactComponent},
-  { path: 'terms', component: TermsComponent},
-  { path: 'privacy', component: PrivacyComponent},
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', component:  HomeComponent}
+  {
+    path: '',
+    component: HomeComponent,
+    data: pageMetadata.home
+  },
+  {
+    path: 'home',
+    component: HomeComponent,
+    data: pageMetadata.home
+  },
+  {
+    path: 'about',
+    component: AboutComponent,
+    data: pageMetadata.about
+  },
+  {
+    path: 'shop',
+    component: ShopComponent,
+    data: pageMetadata.shop
+  },
+  {
+    path: 'history',
+    component: HistoryComponent,
+    data: pageMetadata.history
+  },
+  {
+    path: 'contact',
+    component: ContactComponent,
+    data: pageMetadata.contact
+  },
+  { path: 'terms', component: TermsComponent },
+  { path: 'privacy', component: PrivacyComponent },
+  { path: '**', component: HomeComponent }
 ];
 
 @NgModule({

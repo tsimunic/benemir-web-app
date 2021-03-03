@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { SeoService } from 'src/app/services/seo.service';
 
 @Component({
   selector: 'app-shop',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShopComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private seoService: SeoService,
+    private route: ActivatedRoute) { }
 
   ngOnInit() {
+    const { meta } = this.route.snapshot.data;
+    this.seoService.updateTitle(meta.title);
+    this.seoService.updateDescription(meta.description);
   }
 
 }

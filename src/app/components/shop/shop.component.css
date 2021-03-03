@@ -16,3 +16,7 @@ li {
     font-size: 20px;
 }
 
+mat-card {
+    border-radius: 0;
+}
+

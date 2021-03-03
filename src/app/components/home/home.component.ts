@@ -1,6 +1,8 @@
 import { ChangeDetectorRef, Component, OnInit, ViewChild, } from '@angular/core';
 import { DragScrollComponent } from 'ngx-drag-scroll';
 import 'lazysizes';
+import { SeoService } from 'src/app/services/seo.service';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -9,7 +11,10 @@ import 'lazysizes';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private changeDetectorRef: ChangeDetectorRef) { }
+  constructor(
+    private seoService: SeoService,
+    private route: ActivatedRoute
+    ) { }
 
   buttonColor = 'transparent';
 
@@ -35,11 +40,13 @@ export class HomeComponent implements OnInit {
     // Starting ngx-drag-scroll from specified index(3)
     setTimeout(() => {
       this.products.moveTo(0);
-    }, 0); 
+    }, 0);
   }
 
   ngOnInit() {
-
+    const { meta } = this.route.snapshot.data;
+    this.seoService.updateTitle(meta.title);
+    this.seoService.updateDescription(meta.description);
   }
-  
+
 }

@@ -1,6 +1,8 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { DragScrollComponent } from 'ngx-drag-scroll';
 import 'lazysizes';
+import { SeoService } from 'src/app/services/seo.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-history',
@@ -9,7 +11,10 @@ import 'lazysizes';
 })
 export class HistoryComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private seoService: SeoService,
+    private route: ActivatedRoute
+    ) { }
 
   @ViewChild('samostan', { read: DragScrollComponent }) samostan: DragScrollComponent;
   @ViewChild('samostanUnutra', { read: DragScrollComponent }) samostanUnutra: DragScrollComponent;
@@ -43,6 +48,9 @@ export class HistoryComponent implements OnInit {
   }
 
   ngOnInit() {
+    const { meta } = this.route.snapshot.data;
+    this.seoService.updateTitle(meta.title);
+    this.seoService.updateDescription(meta.description);
   }
 
 }

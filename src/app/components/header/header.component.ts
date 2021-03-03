@@ -38,6 +38,7 @@ export class HeaderComponent implements OnInit, AfterViewInit {
   currentLanguage = 'hr';
 
   ngOnInit() {
+    
     if (localStorage.getItem("language") === null) {
       this.translate.setDefaultLang('hr');
       this.translate.use('hr');
