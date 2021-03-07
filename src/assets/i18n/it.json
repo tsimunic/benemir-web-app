@@ -1,0 +1,119 @@
+{
+    "NAVIGATION": {
+		"HOME": "Homepage",
+        "ABOUT": "Chi siamo",
+		"SHOP": "Carrello",
+		"HISTORY": "Monastero",
+		"CONTACT": "Contatti"
+    },
+    "HOME": {
+        "TITLE": "Početna",
+        "BUTTON_TEXT": "Saznaj više!",
+        "WELCOME": "Dobrodošli!",
+        "SLOGAN": "Tradicija i delicija",
+        "TEXT_1": "Tisućljetni recepti za pripravu delicija i izradu ljekovitih pripravaka očuvani su u rukama rapskih Benediktniki. Naši proizvodi ponovno mogu krasiti vaše domove, puniti vaše kućne ljekarne i očaravati vaše nepce.",
+        "LIST_1": "Rapska torta",
+        "LIST_2": "Mast od gaveza",
+        "LIST_3": "Pripravci od ljekovitog bilja",
+        "LIST_4": "Voćni likeri",
+        "LIST_5": "Pekmezi i razni prehrambeni proizvodi",
+        "TEXT_2": "Naručite naše proizvode putem naše web trgovine ili nas posjetite na Rabu i uljepšajte svakodnevicu svojim bližnjima!"
+    },
+    "ABOUT":{
+        "ABOUT_TITLE": "Chi siamo",
+        "ABOUT_TEXT_1": "BENEMIR s.r.l. è una ditta che svolge la propria attività nel campo della produzione, del commercio e dei servizi. Si avvale dell'eredità, dell'esperienza e delle ricette della Comunità di monache benedettine del millenario Monastero di Sant'Andrea sull'isola di Rab, per la produzione di prodotti originali e autoctoni quali la \"torta Arbesana (Rapska tora)\", le tinture, le pomate, i liquori e le marmellate.",
+		"ABOUT_TEXT_2": "Scopo fondamentale della nostra attività è lo sviluppo di una produzione che prevede l'utilizzo di materie greggie locali provenienti da agricoltura biologica",
+		"RAPSKA_TORTA_TITLE": "Torta Arbesana",
+		"RAPSKA_TORTA_TEXT": "La torta Arbesana ha avuto origine proprio nel Monastero delle monache benedettine di Arbe. Secondo la tradizione orale, le monache prepararono per la prima volta il delicato dolce in occasione della visita di Papa Alessandro III ad Arbe nel 1177. Sebbene riscritta più volte durante i secoli, la ricetta è stata tramandata fino ai nostri giorni nella sua versione originale.",
+		"PRODUCTS_TITLE": "Prodotti caserecci",
+		"PRODUCTS_TEXT": "Il terreno agricolo sulla penisola di Kalifront, che era da tempo abbandonato, sta fiorendo a nuova vita grazie ai diversi alberi da frutto che vi abbiamo piantato intraprendendo così, un'attività agricola biologica di produzione di alberi da frutto, di piante aromatiche e medicinali ad alti standard ecologici. E' nostra intenzione produrre gli ingredienti necessari alla realizzazione della torta Arbesana (mandorle, arance e limoni), delle tinture, delle pomate (piante medicinali) e dei liquori.",
+        "HANDWORK_TITLE": "Lavori manuali",
+        "HANDWORK_TEXT":"Ciò che ci distingue sul mercato sono le competenze pluriennali e l'esperienza lavorativa di esperti e nostri collaboratori nella creazione e realizzazione di vari prodotti. La nostra filosofia si fonda sull'arricchimento di valore attraverso lo sviluppo di soluzioni sane ed originali in risposta alle sfide che i nostri clienti si trovano ad affrontare. "
+	},
+    "SHOP": {
+        "SHOP_TITLE": "Cestello spesa – in allestimento",
+        "SHOP_TEXT_DOWNLOAD": "Scaricate il catalogo dei prodotti ",
+        "SHOP_TEXT": "e contattateci all'indirizzo prodaja@benemir.com"
+    },
+    "HISTORY": {
+        "HISTORY_TITLE": "Monastero benedettino di Sant'Andrea sull'isola di Rab",
+        "HISTORY_TEXT_1": "Il complesso del monastero benedettino con la chiesa di Sant'Andrea, fondato nel secolo XI per accogliere le giovani delle famiglie nobili dell'isola, si erge sulle rocce della baia di sant'Eufemia. Alcuni storici menzionano l'anno 1123 come quello di fondazione, ma non ci sono documenti che lo confermino. Tuttavia, la prima traccia scritta che testimonia l'antica storia di questo monastero è un'epigrafe sul campanile nella quale viene nominata la badessa Ivana. Il semplice campanile romanico,  il più antico dei quattro campanili della città, è stato innalzato nel 1181.",
+        "HISTORY_TEXT_2": "La chiesa di Sant'Andrea adiacente al monastero è una basilica protoromanica a tre navate edificata nel secolo XI su indicazione del vescovo Madius il cui nome inciso su una lapide sulla soglia della chiesa. Rinnovata nel  XIV sec. è stata del tutto modificata nella metà del XV sec. Nel XVIII sec. venne resa barocca – da quel periodo proviene anche l'altare barocco in legno, opera di artisti veneziani, sopra il quale si trova la pala del pittore Grapinelli. Le figure lignee ai lati rappresentano San Benedetto e Sant'Andrea apostolo. ",
+"HISTORY_TEXT_3": "A destra dell'altare principale nella navata si trova l'altare della Madre di Dio che custodisce l'immagine miracolosa venerata dal XVI sec. nel monastero e su tutta l'isola come la Madonna Miracolosa di Arbe.  L'icona cretese-bizantina della Madre di Dio con Cristo in braccio, risalente alla prima metà del XVI secolo,  è  incastonata in una cornice in argento e bagnata in oro, pregevole opera dell'orificeria veneziana del XVIII sec. All'ingresso della chiesa si trova la  preziosa icona cretese-veneziana della Pietà , tempera su legno della seconda metà del XVI secolo. Nella biblioteca del monastero, oltre a opere di spiritualità contemporanee, sono conservati anche antichi manoscritti, documenti e pergamene di grande valore.",
+        "HISTORY_TEXT_4": "Le monache del monastero di Sant'Andrea vivono in fedeltà alla propria vocazione di preghiera e lavoro. La preghiera curata e preparata con premura tesse la trama della vita quotidiana della comunità, offrendo anche ad altri la possibilità di immergersi nel loro raccoglimento e unirsi alla loro orazione. Nel clima di quiete del monastero, praticano l'ospitalità monastica.",
+        "HISTORY_TEXT_5": "Come mille anni fa così anche oggi,  le benedettine del monastero di Rab quali custodi delle mura della città, con la loro preghiera e il loro lavoro implorano grazie per le necessità della loro isola e del mondo, supplicando il Signore che per intercessione di San Benedetto effonda su tutti la sua benedizione."
+  },
+    "CONTACT": {
+        "CONTACT_TITLE": "Contatti",
+        "COMPANY_NAME": "Benemir s.r.l.",
+        "ADDRESS": "Ivana Rabljanina 6, 51280 Rab",
+        "PHONE_1": "+385 5155 0183",
+        "PHONE_2": "+385 99 8244 254",
+        "EMAIL": "prodaja@benemir.com",
+
+        "SUMMER_TITLE": "Orario di apertura estivo",
+        "SUMMER_DATE": "01.06. - 30.09.",
+        "SUMMER_DAYS_1": "Lunedì - giovedì: 09-14 & 18-20",
+        "SUMMER_DAYS_2": "Venerdì, sabato: 09-14",
+
+        "WINTER_TITLE": "Orario di apertura invernale",
+        "WINTER_DATE": "01.10. - 31.05.",
+        "WINTER_DAYS": " Lunedì - sabato",
+        "WINTER_TIME": "09:15-12:30",
+
+        "COMPANY_DESCRIPTION": "La ditta BENEMIR s.r.l. per la produzione, il commercio e servizi è iscritta nel registro del Tribunale del commercio di Fiume (Rijeka), ",
+        "MBS": "MBS: 040406367",
+        "OIB": "OIB: 30551645134",
+        "EUID": "EUID: HRSR 040406367",
+        "DZS_MBPS": "Istituto nazionale di statistica – Numero di matricola dell'azienda: 5143985",
+        "DJELATNOST": "Attività: Commercio al minuto di merci nuove in negozi specializzati",
+        "OZNAKA_RAZREDA": "Contrassegno di classe: 47.78",
+        "ACCOUNT": "Conto corrente dell'azienda: PBZ: IBAN HR2923400091111028298"
+    },
+    "TERMS": {
+        "TERMS_TITLE": "Termini e Condizioni d'uso",
+        "TERMS_TEXT_1": " Il sito Internet www.benemir.com è amministrato dalla Benemir s.r.l. il responsabile della pubblicazione del Sito. L'accesso ai contenuti del Sito è subordinato alla lettura attenta e all'accettazione dei presenti Termini e Condizioni d'uso. L'utilizzo del Sito implica l'accettazione integrale delle Condizioni d'uso e delle Condizioni di vendita.",
+        "TERMS_TEXT_2": "Nel caso in cui non conveniate con gli stessi e non li accettiate, siete pregati di non utilizzare questo Sito. Il continuare ad utillizzare il Sito, dopo essere venuti a conoscenza delle Condizioni d'uso, verrà considerato come accettazzione da parte dell'utente delle medesime condizioni e dei regolamenti in esse esplicati e di conseguenza come consenso all'utilizzo del Sito in conformità alle stesse. L'utente si assume la totale responsabilità dell'utilizzo del Sito. Benemir s.r.l.  non è in grado di garantire in nessun modo l'assenza di interruzioni o di errori durante l'utilizzo del presente sito;  similmente esso non può farsi garante delle conseguenze dell'utilizzo del sito o dell'esattezza, dell'attendibilità o del contenuto di qualsiasi informazione, servizio o bene forniti attraverso questo sito.",
+        "TERMS_TEXT_3": "L'utente concorda e conferma che Benemir s.r.l. non potrà essere ritenuta responsabile di eventuali comportamenti sconvenienti e illeciti da parte di altri utenti o di terzi. Pertanto l'utente si assume interamente il rischio di eventuali danni sorti a causa delle suddette situazioni. La dichiarazione di esonero di responsabilità riguarda tutti i danni causati da qualsiasi errore, cancellazione, interruzione, virus del sistema informatico, guasto, ritardo nel lavoro o nel trasferimento, interruzione della linea di comunicazione, furto, annullamento di contratto, distruzione o accesso non autorizzato, modifiche o  abuso dei contenuti, comportamenti sconvenienti, negligenze o da qualsiasi altra attività.",
+        "TERMS_TEXT_4": "Benemir s.r.l. o altre persone fisiche o giuridiche partecipanti alla realizzazione, produzione e distribuzione del presente Sito non saranno in alcun caso responsabili degli eventuali danni conseguenti l'utilizzo o dell'impossibilità di accedere o di utilizzare lo stesso.",
+        "TERMS_TEXT_5": " Benemir s.r.l. declina ogni responsabilità per qualsiasi danneggiamento all'attrezzatura dell'utente connessa all'utilizzo di questo Sito. Benemir s.r.l. si riserva il diritto di annullare o modificare qualsivoglia delle Condizioni d'uso del Sito o delle Condizioni di vendita, in ogni momento e senza preavviso, se dovesse considerarlo necessario. Le modifiche degli oggetti possono includere, tra l'altro, l'introduzione di determinati compensi  o retribuzioni, pertanto si consiglia gli utenti di verificare periodicamente e dettagliatamente le informazioni contenute nelle Condizioni d'uso e nelle Condizioni di Vendita per accertarsi di eventuali modifiche.",
+        "TERMS_TEXT_6": "Allo stesso modo, Benemir s.r.l. si riserva in ogni tempo il diritto di modificare o abolire qualsiasi segmento dell'attività, inclusi senza restrizioni, il tempo di accessibilità, il contenuto e anche l'attrezzatura necessaria all'accesso o all'utilizzo del Sito.",
+        "TERMS_TEXT_7": "Ogni eventuale modifica o cancellazione delle Condizioni d'uso comincia a valere nei confronti di terzi dal momento in cui viene  pubblicata sul Sito. Ogni utilizzo da parte dell'utente, eccetto la verifica delle modifiche dell Condizioni del Sito, verrà considerato come accettazione delle medesime modifiche.",
+        "TERMS_TEXT_8": "È proibito agli utenti usare il presente Sito per pubblicare, trasmettere o divulgare in qualsivoglia maniera materiali il cui contenuto in qualsiasi modo violi i diritti altrui come ad esempio contenuti di tipo offensivo, calunniatore, tendente a turbare o minacciare la privacy, ecc., come neppure materiali di contenuto o forma illecita. Benemir s.r.l. si riserva il diritto alla discrezionalità riguardo la valutazione di eventuali violazioni da parte degli utenti. Non è consentito agli utenti pubblicare, trasmettere o divulgare in alcun modo, senza previa autorizzazione scritta della Benemir s.r.l., contenuti che includano annunci, pubblicità o offerte di qualunque prodotto o servizio, come neanche fare alcuna propaganda religiosa, politica o non commerciale. È soprattutto severamente proibito incitare altri utenti del Sito ad utilizzare servizi di concorrenza diretta o indiretta. Tutti i materiali contenuti nel Sito sono di proprietà della ditta Benemir s.r.l. e, in quanto tali, sono protetti dalla legge o vengono usati in conformità alla tutela dei diritti d'autore e dei diritti sui marchi come anche in conformità alle altre concessioni necessarie. Alla Benemir s.r.l. appartengono i diritti d'autore dell'intero contenuto intellettuale del Sito indispensabile al suo corretto e indisturbato funzionamento.",
+        "TERMS_TEXT_9": "Le immagini pubblicate sul Sito sono opere e proprietà della ditta Benemir s.r.l. oppure sono ad uso gratutito.",
+        "TERMS_TEXT_10": " È proibito riprodurre, trasmettere, distribuire, creare dei link, pubblicare o modificare in qualsiasi modo il presente Sito, senza previa autorizzazione scritta della Benemir s.r.l. Ogni violazione del suddetto divieto può avere come conseguenza la lesione dei diritti d'autore, del diritto sul marchio o di qualunque altro diritto, pertanto può comportare effetti indesiderati quali l'attivazione di diversi tipi di processi giuridici, ma soprattutto può portare a procedimenti penali. Non è consentito all'utente modificare, pubblicare, trasmettere, partecipare alla trasmissione o vendita, creare derivati o sfruttare in qualsiasi modo, interamente o parzialmente alcun contenuto del Sito.",
+        "TERMS_TEXT_11": " Non è consentito neanche riprodurre, ridistribuire, trasmettere nuovamente, fare uso editoriale o commerciale dei materiali visualizzati. L'utente consente ad esonerare da responsabilità e a rimborsare Benemir s.r.l. di tutte le richieste di risarcimento danni e spese.",
+        "TERMS_TEXT_12": "Benemir s.r.l. declina ogni responsabilità per ogni eventuale perdita o danno che potrebbe derivare dal fatto che l'utente abbia fatto affidamento sulle informazioni ottenute sul sito.  Benemir s.r.l. si discosta espressamente e in qualsiasi senso dai contenuti dei materiali di siti Internet di terzi, ai quali si potrebbe avere accesso dal Sito.  Nel caso in cui uno di questi  comma non fosse valido, tale nullità non andrà a influire sulla validità di qualsiasi altro comma e le restanti parti delle presenti Condizioni resteranno in vigore e la norma nulla verrà sostituita con una norma valida corrispondente secondo il senso e la volontà giuridica a quella eliminata a causa della sua invalidità. Nel caso in cui una delle parti non faccia uso dei propri diritti espressi in queste Condizioni, ciò non sarà considerato come rinuncia o perdita di tali diritti, né di alcun altro diritto qui espilicitato.",
+        "TERMS_TEXT_13": "L'utilizzo del Sito è vietato a persone di età inferiore ai 14 anni. Ogni controversia o richiesta derivante o  in relazione alle presenti Condizioni o alla loro attuazione è di competenza del tribunale di Zagabria e  verrà risolto in conformità alle norme vigenti nel territorio della Repubblica di Croazia. ",
+        "TERMS_TEXT_14": "L'accesso al Sito implica che l'utente abbia letto per intero le presenti Condizioni."
+  },
+    "PRIVACY": {
+        "PRIVACY_TITLE": "Politica della Privacy",
+        "PRIVACY_SUBTITLE_1": "Dichiarazione sulla protezione e raccolta dei dati personali e del loro trattamento .",
+        "PRIVACY_SUBTITLE_2": "Tipologia di dati personali raccolti mediante il Sito",
+        "PRIVACY_SUBTITLE_3": "Modalità secondo la quale Benemir s.r.l. tratta i dati personali dell'utente.",
+        "PRIVACY_SUBTITLE_4": " Modalità secondo la quale Benemir s.r.l. tratta i miei dati personali",
+        "PRIVACY_SUBTITLE_5": "Benemir s.r.l. divulga i miei dati personali?",
+        "PRIVACY_SUBTITLE_6": "I miei diritti riguardo alla gestione dei miei dati personali",
+        "PRIVACY_TEXT_1": "La privacy dei visitatori del Sito e degli Utenti è di particolare importanza per noi. Tutte informazioni personali rilasciate sul nostro Sito verranno ospitate e archiviate; verranno raccolti solo i dati consentiti dalla legge sulla protezione dei dati personali e dal codice delle comunicazioni elettroniche.",
+        "PRIVACY_TEXT_2": "Benemir s.r.l. si obbliga ad offrire la protezione dei dati personali dell'utente, raccogliendo esclusivamente i dati indispensabili, fondamentali degli utenti in quanto necessari al compimento dei propri obblighi; informa gli utenti sulla modalità di trattamento dei dati raccolti, offre loro regolarmente la possibilità di scelta sull'utilizzo dei propri dati, compresa la possibilià di decidere se vogliono o no  cancellare il proprio nome dalla lista dei destinatari di campagne pubblicitarie. Tutti i dati degli utenti sono severamente conservati e sono  disponibili  solo a quegli operatori per i quali i suddetti dati sono necessari per l'esecuzione del lavoro. Tutti gli operatori di  Benemir s.r.l. e i partner d'affari sono tenuti ad osservare i principi della protezione della privacy.",
+        "PRIVACY_TEXT_3": "Benemir s.r.l. può raccogliere i dati personali degli utenti del Sito tramite formulari adeguati: nome, indirizzo e-mail, indirizzo postale, numero di telefono, data di nascita, sesso, nel momento in cui l'utente accede al Sito, si registra, contatta il supporto tecnico o partecipa a promozioni e inchieste della ditta Benemir s.r.l. Le suddette informazioni non verranno raccolte in nessun caso attraverso canali che non sono stati precedentemente indicati, anche quando questi sono disponibili in rete  (e-mail, chat, Facebook ecc.). Nel caso in cui le suddette informazioni vengano acquisite attraverso uno dei canali menzionati, Benemir s.r.l. non le utilizzerà per nessuno degli scopi indicati nell'articolo seguente. Benemir s.r.l. non sarà responsabile per la sicurezza dei suddetti dati né potrà garantirne l'affidabilità.",
+        "PRIVACY_TEXT_4": "In ogni caso i dati richiesti tramite il Sito sono necessari al fine di offrire un servizio ottimale all'utente. Nel caso in cui l'utente non conferisca i dati richiesti, Benemir s.r.l. non sarà in grado di garantire che le informazioni e i servizi offerti soddisferanno interamente i bisogni dello stesso.",
+        "PRIVACY_TEXT_5": "Benemir s.r.l. tratterà i dati degli utenti per i seguenti scopi: inviare  comunicazioni commerciali via e- mail per informare riguardo ai nuovi prodotti, alle offerte particolari e alle novità relative al Sito e/o alla ditta Benemir s.r.l., generalmete attraverso newsletters. Le suddette comunicazioni commerciali riguardano prodotti e servizi offerti dalla  Benemir s.r.l. o da collaboratori e partner con i quali l'azienda ha stipulato contratto di promozione di vendita tra i propri clienti. Collaboratori e partner non potranno in nessun caso avere accesso ai dati personali degli utenti. In ogni situazione le comunicazioni commerciali saranno inviate dalla Benemir s.r.l. e si riferiranno ai prodotti e ai servizi del settore di affari della ditta. L'utente può  disdire l'erogazione di tutti i servizi a cui è abbonato con un clic nella sezione Abbonamenti.",
+        "PRIVACY_TEXT_6": "Il Sito utilizza tecnologie per la protezione dei dati quali il firewall, procedimenti per la verifica dell'accesso e meccanismi criptografici al fine di bloccare ogni forma di accesso non autorizzato ai dati e di garantire l'affidabilità degli stessi. Per poter raggiungere gli scopi menzionati, gli utenti acconsentono che Benemir s.r.l. raccolga dati al fine di verificare il controllo dell'accesso.",
+        "PRIVACY_TEXT_7": "La ditta Benemir s.r.l. dichiara di aver adottato tutte le misure tecniche e organizzative necessarie a garantire la sicurezza e la completezza dei dati personali da essa trattati, così come quelle volte ad impedire la loro perdita, modifica e/o un accesso abusivo da parte di terzi. ",
+        "PRIVACY_TEXT_8": "Benemir s.r.l. notifica esspressamente e garantisce agli utenti che i loro dati personali non verranno in nessun caso trasferiti a terzi se non avrà previamente richiesto il consenso esplicito, informato e chiaro del proprietario. ",
+        "PRIVACY_TEXT_9": "La ditta Benemir s.r.l. in ogni momento garantisce agli utenti la possibilità  di usufruire del proprio diritto all'accesso, alla modifica, cancellazione o alla contestazione dei dati personali forniti alle condizioni previste dalla legislazione vigente. Gli utenti del Sito possono usufruire dei suddetti diritti inviando una richiesta scritta, allegando la copia del documento di identità  all'indirizzo di posta elettronica: info@benemir.com"
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

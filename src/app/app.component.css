@@ -27,8 +27,6 @@ app-header {
 
 .main {
     grid-column: 2;
-    margin-bottom: 10px;
-
 }
 
 .mat-snack-bar-container {

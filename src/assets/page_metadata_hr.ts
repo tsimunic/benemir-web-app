@@ -25,7 +25,7 @@ export const pageMetadata = {
     },
     shop : {
         meta: {
-            title: 'Web shop - Benemir',
+            title: 'Benemir -  Web shop',
             description: 'Naručite putem našeg web shopa i na Vašu kućnu adresu stižu domaći proizvodi s orginalnom recepturom.'
         }
     }

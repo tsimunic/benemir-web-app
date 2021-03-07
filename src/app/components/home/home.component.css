@@ -53,6 +53,23 @@ p {
     max-width: 100%;
 }
 
+.benemir-description {
+    display: grid;
+    text-align: start;
+}
+
+li {
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.carousel-button {
+    margin: 10px;
+    background-color: white;
+    color: rgb(58, 69, 163);
+}
+
 .content-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -89,6 +106,21 @@ p {
     justify-content: center;
     min-height: 400px;
     max-height: 500px;
+    margin-bottom: 10px;
+}
+
+.shop-button-container {
+    display: grid;
+    justify-content: center;
+    justify-self: center;
+    
+    text-align: center;
+    height: auto;
+}
+.shop-button {
+    min-width: 150px;
+    background-color: rgb(58, 69, 163);
+    border-radius: 5px;
 }
 
 drag-scroll {

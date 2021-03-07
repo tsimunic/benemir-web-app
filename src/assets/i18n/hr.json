@@ -8,7 +8,16 @@
     },
     "HOME": {
         "TITLE": "Početna",
-        "WELCOME": "Dobrodošli"
+        "BUTTON_TEXT": "Saznaj više!",
+        "WELCOME": "Dobrodošli!",
+        "SLOGAN": "Tradicija i delicija",
+        "TEXT_1": "Tisućljetni recepti za pripravu delicija i izradu ljekovitih pripravaka očuvani su u rukama rapskih Benediktniki. Naši proizvodi ponovno mogu krasiti vaše domove, puniti vaše kućne ljekarne i očaravati vaše nepce.",
+        "LIST_1": "Rapska torta",
+        "LIST_2": "Mast od gaveza",
+        "LIST_3": "Pripravci od ljekovitog bilja",
+        "LIST_4": "Voćni likeri",
+        "LIST_5": "Pekmezi i razni prehrambeni proizvodi",
+        "TEXT_2": "Naručite naše proizvode putem naše web trgovine ili nas posjetite na Rabu i uljepšajte svakodnevicu svojim bližnjima!"
     },
     "ABOUT": {
         "ABOUT_TITLE": "O nama",

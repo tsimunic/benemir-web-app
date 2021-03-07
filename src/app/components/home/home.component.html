@@ -1,25 +1,45 @@
 <div class="content">
     <div class="welcome-image">
-        <!-- <img class="lazyload total-cover" src="../../../assets/images/welcome/3.jpg"> -->
-        <h1 class="main-title">Dobrodošli!</h1>
-        <h3 ><button style="width: 200px;height: 100px; font-size: 20px;" mat-button (click)="scrollToContent();">Saznaj više!<br><mat-icon style="font-size: 30px;">touch_app</mat-icon></button></h3>
+        <h1 class="main-title">{{ 'HOME.WELCOME' | translate }}</h1>
+        <h3><button style="width: 200px;height: 100px; font-size: 20px;" mat-button (click)="scrollToContent();">{{ 'HOME.BUTTON_TEXT' | translate }}<br>
+                <mat-icon style="font-size: 30px;">touch_app</mat-icon>
+            </button></h3>
+    </div>
+    <div class="benemir-description">
+        <mat-card>
+            <mat-card-title>
+                <h1 style="font-weight: bold;" class="monotype-font">{{ 'HOME.SLOGAN' | translate }}</h1>
+
+            </mat-card-title>
+            <p>{{ 'HOME.TEXT_1' | translate }}</p>
+            <ul>
+                <li>{{ 'HOME.LIST_1' | translate }}</li>
+                <li>{{ 'HOME.LIST_2' | translate }}</li>
+                <li>{{ 'HOME.LIST_3' | translate }}</li>
+                <li>{{ 'HOME.LIST_4' | translate }}</li>
+                <li>{{ 'HOME.LIST_5' | translate }}</li>
+            </ul>
+            <p>{{ 'HOME.TEXT_2' | translate }}</p>
+            <div class="shop-button-container">
+                <div class="shop-button"><button mat-button routerLink="/shop" style="font-weight: bold;">Web shop<br><mat-icon>shopping_cart</mat-icon></button></div>
+            </div>
+        </mat-card>
+
     </div>
     <div class="carousel-container">
-        <drag-scroll #products scrollbar-hidden="true">  
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/6-min_opt.jpg" />
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/2-min_opt.jpg" />
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/8-min_opt.jpg" />
-        
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/1-min_opt.jpg" />
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/4-min_opt.jpg" />
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/7-min_opt.jpg" />
-            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/about/5-min_opt.jpg" />
+        <drag-scroll #products scrollbar-hidden="true">
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/welcome/carousel/carousel_2.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/welcome/carousel/carousel_1.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/welcome/carousel/carousel_3.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/welcome/carousel/carousel_4.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/welcome/carousel/carousel_5.jpg" />
+            <img drag-scroll-item class="lazyload" data-src="../../../assets/images/welcome/carousel/carousel_6.jpg" />
         </drag-scroll>
-        <div style="min-height: 50px;">
-            <button mat-button (click)="moveLeft()">
+        <div style="min-height: 60px;">
+            <button mat-button class="carousel-button" (click)="moveLeft()">
                 <mat-icon>keyboard_arrow_left</mat-icon>
             </button>
-            <button mat-button (click)="moveRight()">
+            <button mat-button class="carousel-button" (click)="moveRight()">
                 <mat-icon>keyboard_arrow_right</mat-icon>
             </button>
         </div>
