@@ -7,17 +7,18 @@
         "CONTACT": "Contact "
     },
     "HOME": {
-        "TITLE": "Početna",
-        "BUTTON_TEXT": "Saznaj više!",
+        "TITLE": "Home",
+        "BUTTON_TEXT": "Find more!",
         "WELCOME": "Welcome!",
-        "SLOGAN": "Tradition & delicacies",
-        "TEXT_1": "Tisućljetni recepti za pripravu delicija i izradu ljekovitih pripravaka očuvani su u rukama rapskih Benediktniki. Naši proizvodi ponovno mogu krasiti vaše domove, puniti vaše kućne ljekarne i očaravati vaše nepce.",
-        "LIST_1": "Rapska torta",
-        "LIST_2": "Mast od gaveza",
-        "LIST_3": "Pripravci od ljekovitog bilja",
-        "LIST_4": "Voćni likeri",
-        "LIST_5": "Pekmezi i razni prehrambeni proizvodi",
-        "TEXT_2": "Naručite naše proizvode putem naše web trgovine ili nas posjetite na Rabu i uljepšajte svakodnevicu svojim bližnjima!"
+        "SLOGAN": "Tradition and delicacy",
+        "TEXT_1": "Millennial recipes for preparing delicacies and making herbal preparations have been preserved in the hands of Rab's Benedictines. Our products can once again adorn your homes, fill your home pharmacies and enchant your palates..",
+        "LIST_1": "Rab cake",
+        "LIST_2": "Comfrey Ointment",
+        "LIST_3": "Tinctures - herbal preparations",
+        "LIST_4": "Fruit liqueurs",
+        "LIST_5": "Marmelades and various food products",
+		"LIST_6": "... and many other products",
+        "TEXT_2": "Order our products by contacting our web shop or visit us in our shop in Rab!"
     },
     "ABOUT": {
         "ABOUT_TITLE": "About us",

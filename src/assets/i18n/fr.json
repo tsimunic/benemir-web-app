@@ -1,23 +1,24 @@
 {
     "NAVIGATION": {
-        "HOME": "Page d'accueil",
+        "HOME": "Home",
         "ABOUT": "À propos de nous",
         "SHOP": "Magasin en ligne",
         "HISTORY": "Monastère",
         "CONTACT": "Contacter"
     },
     "HOME": {
-        "TITLE": "Početna",
-        "BUTTON_TEXT": "Saznaj više!",
-        "WELCOME": "Dobrodošli!",
-        "SLOGAN": "Tradicija i delicija",
-        "TEXT_1": "Tisućljetni recepti za pripravu delicija i izradu ljekovitih pripravaka očuvani su u rukama rapskih Benediktniki. Naši proizvodi ponovno mogu krasiti vaše domove, puniti vaše kućne ljekarne i očaravati vaše nepce.",
-        "LIST_1": "Rapska torta",
-        "LIST_2": "Mast od gaveza",
-        "LIST_3": "Pripravci od ljekovitog bilja",
-        "LIST_4": "Voćni likeri",
-        "LIST_5": "Pekmezi i razni prehrambeni proizvodi",
-        "TEXT_2": "Naručite naše proizvode putem naše web trgovine ili nas posjetite na Rabu i uljepšajte svakodnevicu svojim bližnjima!"
+        "TITLE": "Home",
+        "BUTTON_TEXT": "En savoir plus!",
+        "WELCOME": "Bienvenue!",
+        "SLOGAN": "Tradition et délicatesse",
+        "TEXT_1": "Des recettes millénaires pour préparer des mets raffinés et faire des préparations médicinales ont été conservées entre les mains des bénédictins de Rab. Nos produits peuvent à nouveau orner vos maisons, remplir vos pharmacies à domicile et enchanter vos palais.",
+        "LIST_1": "Gâteau de Rab",
+        "LIST_2": "Pommade de consoude",
+        "LIST_3": "Teintures médicales",
+        "LIST_4": "Liqueurs de fruits",
+        "LIST_5": "Marmelades et produits alimentaires divers",
+		"LIST_6": "... et bien d'autres produits",
+        "TEXT_2": "Commandez nos produits via notre boutique en ligne ou rendez-nous visite sur Rab et égayez le quotidien de vos proches!"
     },
     "ABOUT": {
         "ABOUT_TITLE": "À propos de nous",

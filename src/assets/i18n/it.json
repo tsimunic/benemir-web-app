@@ -1,23 +1,24 @@
 {
     "NAVIGATION": {
-		"HOME": "Homepage",
+		"HOME": "Home",
         "ABOUT": "Chi siamo",
 		"SHOP": "Carrello",
 		"HISTORY": "Monastero",
 		"CONTACT": "Contatti"
     },
     "HOME": {
-        "TITLE": "Početna",
-        "BUTTON_TEXT": "Saznaj više!",
-        "WELCOME": "Dobrodošli!",
-        "SLOGAN": "Tradicija i delicija",
-        "TEXT_1": "Tisućljetni recepti za pripravu delicija i izradu ljekovitih pripravaka očuvani su u rukama rapskih Benediktniki. Naši proizvodi ponovno mogu krasiti vaše domove, puniti vaše kućne ljekarne i očaravati vaše nepce.",
-        "LIST_1": "Rapska torta",
-        "LIST_2": "Mast od gaveza",
-        "LIST_3": "Pripravci od ljekovitog bilja",
-        "LIST_4": "Voćni likeri",
-        "LIST_5": "Pekmezi i razni prehrambeni proizvodi",
-        "TEXT_2": "Naručite naše proizvode putem naše web trgovine ili nas posjetite na Rabu i uljepšajte svakodnevicu svojim bližnjima!"
+        "TITLE": "Home",
+        "BUTTON_TEXT": "Scopri di più!",
+        "WELCOME": "Benvenuti!",
+        "SLOGAN": "Tradizione e prelibatezza",
+        "TEXT_1": "Ricette millenarie per la preparazione di prelibatezze e preparazioni medicinali sono state conservate nelle mani dei benedettini di Arbe. I nostri prodotti possono ancora una volta adornare le vostre case, riempire le vostre farmacie di casa e incantare i vostri palati.",
+        "LIST_1": "Torta Arbesana",
+        "LIST_2": "Unguento di consolida",
+        "LIST_3": "Tinture di erbe medicinali",
+        "LIST_4": "Liquori alla frutta",
+        "LIST_5": "Marmellate e prodotti alimentari vari",
+		"LIST_6": "... e molti altri prodotti",
+        "TEXT_2": "Ordina i nostri prodotti tramite il nostro web store o vieni a trovarci su Rab e ravviva la vita quotidiana dei tuoi cari!"
     },
     "ABOUT":{
         "ABOUT_TITLE": "Chi siamo",
